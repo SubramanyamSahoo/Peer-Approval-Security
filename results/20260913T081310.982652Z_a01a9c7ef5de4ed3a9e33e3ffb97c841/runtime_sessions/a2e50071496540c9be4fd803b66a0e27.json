@@ -1,0 +1,17 @@
+{
+  "accounting": {
+    "elapsed_billing_seconds": 6332.818037,
+    "estimated_instance_usd": 5.787492039369444,
+    "instance_termination_performed": false,
+    "limit_usd": 100.0,
+    "reserve_usd": 20.0
+  },
+  "telemetry": {
+    "final_batch_ceiling": 64,
+    "forward_seconds": 978.0931345650033,
+    "initial_batch_size": 64,
+    "oom_reductions": [],
+    "scored_prompt_tokens": 5073480,
+    "successful_forward_batches": 190
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "accounting": {
+    "elapsed_billing_seconds": 2425.209719,
+    "estimated_instance_usd": 2.2163722154194443,
+    "instance_termination_performed": false,
+    "limit_usd": 100.0,
+    "reserve_usd": 20.0
+  },
+  "status": "completed",
+  "updated_utc": "2026-09-13T07:25:32.790425+00:00"
+}

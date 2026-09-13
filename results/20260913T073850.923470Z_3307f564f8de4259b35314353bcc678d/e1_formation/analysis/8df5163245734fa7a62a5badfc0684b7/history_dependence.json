@@ -1,0 +1,76 @@
+{
+  "conditions": [
+    {
+      "arm": "none",
+      "authorization": "authorized",
+      "metrics": {
+        "history_effect_after_withdrawal": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.05849459374259992,
+          "ci_low": 0.020298867342394458,
+          "confidence_level": 0.95,
+          "estimate": 0.03749611698067695,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "history_effect_under_support": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.004627410643028581,
+          "ci_low": 0.0009712255483669587,
+          "confidence_level": 0.95,
+          "estimate": 0.0030092806823851376,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "withdrawal_minus_support_history_interaction": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.054757342682718015,
+          "ci_low": 0.01603026762423818,
+          "confidence_level": 0.95,
+          "estimate": 0.034486836298291815,
+          "n_scenarios": 8,
+          "status": "estimated"
+        }
+      },
+      "visibility": "private"
+    },
+    {
+      "arm": "none",
+      "authorization": "authorized",
+      "metrics": {
+        "history_effect_after_withdrawal": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.05839089128717731,
+          "ci_low": 0.026085761863537574,
+          "confidence_level": 0.95,
+          "estimate": 0.03989575676232865,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "history_effect_under_support": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.004750942379795143,
+          "ci_low": 0.002074791418071542,
+          "confidence_level": 0.95,
+          "estimate": 0.003410731144024695,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "withdrawal_minus_support_history_interaction": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.05404473434783464,
+          "ci_low": 0.022421219124690233,
+          "confidence_level": 0.95,
+          "estimate": 0.036485025618303954,
+          "n_scenarios": 8,
+          "status": "estimated"
+        }
+      },
+      "visibility": "public"
+    }
+  ],
+  "construct": "prior-agreement effect at matched present peer positions and tool state",
+  "constructed_histories": true,
+  "not_a_demonstrated_hysteresis_loop": true,
+  "paired_intervention_effects": []
+}

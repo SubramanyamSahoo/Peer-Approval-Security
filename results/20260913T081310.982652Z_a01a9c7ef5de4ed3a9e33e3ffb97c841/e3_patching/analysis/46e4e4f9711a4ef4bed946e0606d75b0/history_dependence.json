@@ -1,0 +1,1731 @@
+{
+  "conditions": [
+    {
+      "arm": "candidate",
+      "authorization": "authorized",
+      "metrics": {
+        "history_effect_after_withdrawal": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.07123077044513235,
+          "ci_low": 0.04790399371223026,
+          "confidence_level": 0.95,
+          "estimate": 0.05919155998448493,
+          "n_scenarios": 32,
+          "status": "estimated"
+        },
+        "history_effect_under_support": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.005708225622583525,
+          "ci_low": 0.002724025625850831,
+          "confidence_level": 0.95,
+          "estimate": 0.004183982362365793,
+          "n_scenarios": 32,
+          "status": "estimated"
+        },
+        "withdrawal_minus_support_history_interaction": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.06681356918894328,
+          "ci_low": 0.04363225151268854,
+          "confidence_level": 0.95,
+          "estimate": 0.055007577622119136,
+          "n_scenarios": 32,
+          "status": "estimated"
+        }
+      },
+      "visibility": "public"
+    },
+    {
+      "arm": "random",
+      "authorization": "authorized",
+      "metrics": {
+        "history_effect_after_withdrawal": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0710186507876867,
+          "ci_low": 0.046078311150161824,
+          "confidence_level": 0.95,
+          "estimate": 0.058252545699684036,
+          "n_scenarios": 32,
+          "status": "estimated"
+        },
+        "history_effect_under_support": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.005159904282155755,
+          "ci_low": 0.0025073581057249634,
+          "confidence_level": 0.95,
+          "estimate": 0.0037584446230554854,
+          "n_scenarios": 32,
+          "status": "estimated"
+        },
+        "withdrawal_minus_support_history_interaction": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.06739907448023968,
+          "ci_low": 0.041885400765158586,
+          "confidence_level": 0.95,
+          "estimate": 0.05449410107662855,
+          "n_scenarios": 32,
+          "status": "estimated"
+        }
+      },
+      "visibility": "public"
+    },
+    {
+      "arm": "rule_reminder",
+      "authorization": "authorized",
+      "metrics": {
+        "history_effect_after_withdrawal": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0664091586925177,
+          "ci_low": 0.044665132029684064,
+          "confidence_level": 0.95,
+          "estimate": 0.054938900235360695,
+          "n_scenarios": 32,
+          "status": "estimated"
+        },
+        "history_effect_under_support": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.006704132817663653,
+          "ci_low": 0.003955569263786682,
+          "confidence_level": 0.95,
+          "estimate": 0.0052747984741558715,
+          "n_scenarios": 32,
+          "status": "estimated"
+        },
+        "withdrawal_minus_support_history_interaction": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.06033176737593927,
+          "ci_low": 0.03966975511582036,
+          "confidence_level": 0.95,
+          "estimate": 0.049664101761204824,
+          "n_scenarios": 32,
+          "status": "estimated"
+        }
+      },
+      "visibility": "public"
+    }
+  ],
+  "construct": "prior-agreement effect at matched present peer positions and tool state",
+  "constructed_histories": true,
+  "not_a_demonstrated_hysteresis_loop": true,
+  "paired_intervention_effects": [
+    {
+      "arm": "candidate",
+      "authorization": "authorized",
+      "metrics": {
+        "history_effect_after_withdrawal": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.004046663653326682,
+          "ci_low": -0.0021425908110198908,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0011868401951543664,
+          "left_scenarios": 32,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7",
+            "test_0008_75b51ab6f842dc1b",
+            "test_0009_72ae0f46ebdfa93b",
+            "test_0010_de3ed4a9a05223bd",
+            "test_0011_3f6e76588af4bfc8",
+            "test_0012_bf6d09b612b833a8",
+            "test_0013_47d229459d99b627",
+            "test_0014_9b8ad0ae624571c2",
+            "test_0015_d1f457f8240304ff",
+            "test_0016_ac014df9ba8db645",
+            "test_0017_2bce51338ea891b4",
+            "test_0018_25e98eae435ec9b7",
+            "test_0019_3cb8a9ac7aff1ed7",
+            "test_0020_4e693b6b316a69c6",
+            "test_0021_43bea0c3bb8f64db",
+            "test_0022_c832cd6756c340b8",
+            "test_0023_85e90727ee0dfe25",
+            "test_0024_dbe06d2ba2f9db48",
+            "test_0025_a045721273485a27",
+            "test_0026_9d73c8f885a03a91",
+            "test_0027_f5c2158cf3b86b20",
+            "test_0028_31232218293dea47",
+            "test_0029_ec7fe2765153ed37",
+            "test_0030_23c95a531b061d0a",
+            "test_0031_3d659dd2dfc7cca7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ],
+            [
+              "test_0008_75b51ab6f842dc1b",
+              0
+            ],
+            [
+              "test_0009_72ae0f46ebdfa93b",
+              0
+            ],
+            [
+              "test_0010_de3ed4a9a05223bd",
+              0
+            ],
+            [
+              "test_0011_3f6e76588af4bfc8",
+              0
+            ],
+            [
+              "test_0012_bf6d09b612b833a8",
+              0
+            ],
+            [
+              "test_0013_47d229459d99b627",
+              0
+            ],
+            [
+              "test_0014_9b8ad0ae624571c2",
+              0
+            ],
+            [
+              "test_0015_d1f457f8240304ff",
+              0
+            ],
+            [
+              "test_0016_ac014df9ba8db645",
+              0
+            ],
+            [
+              "test_0017_2bce51338ea891b4",
+              0
+            ],
+            [
+              "test_0018_25e98eae435ec9b7",
+              0
+            ],
+            [
+              "test_0019_3cb8a9ac7aff1ed7",
+              0
+            ],
+            [
+              "test_0020_4e693b6b316a69c6",
+              0
+            ],
+            [
+              "test_0021_43bea0c3bb8f64db",
+              0
+            ],
+            [
+              "test_0022_c832cd6756c340b8",
+              0
+            ],
+            [
+              "test_0023_85e90727ee0dfe25",
+              0
+            ],
+            [
+              "test_0024_dbe06d2ba2f9db48",
+              0
+            ],
+            [
+              "test_0025_a045721273485a27",
+              0
+            ],
+            [
+              "test_0026_9d73c8f885a03a91",
+              0
+            ],
+            [
+              "test_0027_f5c2158cf3b86b20",
+              0
+            ],
+            [
+              "test_0028_31232218293dea47",
+              0
+            ],
+            [
+              "test_0029_ec7fe2765153ed37",
+              0
+            ],
+            [
+              "test_0030_23c95a531b061d0a",
+              0
+            ],
+            [
+              "test_0031_3d659dd2dfc7cca7",
+              0
+            ]
+          ],
+          "n_scenarios": 32,
+          "right_scenarios": 32,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "history_effect_under_support": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0011045016875624748,
+          "ci_low": 0.0001517145142043375,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0006182450170546076,
+          "left_scenarios": 32,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7",
+            "test_0008_75b51ab6f842dc1b",
+            "test_0009_72ae0f46ebdfa93b",
+            "test_0010_de3ed4a9a05223bd",
+            "test_0011_3f6e76588af4bfc8",
+            "test_0012_bf6d09b612b833a8",
+            "test_0013_47d229459d99b627",
+            "test_0014_9b8ad0ae624571c2",
+            "test_0015_d1f457f8240304ff",
+            "test_0016_ac014df9ba8db645",
+            "test_0017_2bce51338ea891b4",
+            "test_0018_25e98eae435ec9b7",
+            "test_0019_3cb8a9ac7aff1ed7",
+            "test_0020_4e693b6b316a69c6",
+            "test_0021_43bea0c3bb8f64db",
+            "test_0022_c832cd6756c340b8",
+            "test_0023_85e90727ee0dfe25",
+            "test_0024_dbe06d2ba2f9db48",
+            "test_0025_a045721273485a27",
+            "test_0026_9d73c8f885a03a91",
+            "test_0027_f5c2158cf3b86b20",
+            "test_0028_31232218293dea47",
+            "test_0029_ec7fe2765153ed37",
+            "test_0030_23c95a531b061d0a",
+            "test_0031_3d659dd2dfc7cca7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ],
+            [
+              "test_0008_75b51ab6f842dc1b",
+              0
+            ],
+            [
+              "test_0009_72ae0f46ebdfa93b",
+              0
+            ],
+            [
+              "test_0010_de3ed4a9a05223bd",
+              0
+            ],
+            [
+              "test_0011_3f6e76588af4bfc8",
+              0
+            ],
+            [
+              "test_0012_bf6d09b612b833a8",
+              0
+            ],
+            [
+              "test_0013_47d229459d99b627",
+              0
+            ],
+            [
+              "test_0014_9b8ad0ae624571c2",
+              0
+            ],
+            [
+              "test_0015_d1f457f8240304ff",
+              0
+            ],
+            [
+              "test_0016_ac014df9ba8db645",
+              0
+            ],
+            [
+              "test_0017_2bce51338ea891b4",
+              0
+            ],
+            [
+              "test_0018_25e98eae435ec9b7",
+              0
+            ],
+            [
+              "test_0019_3cb8a9ac7aff1ed7",
+              0
+            ],
+            [
+              "test_0020_4e693b6b316a69c6",
+              0
+            ],
+            [
+              "test_0021_43bea0c3bb8f64db",
+              0
+            ],
+            [
+              "test_0022_c832cd6756c340b8",
+              0
+            ],
+            [
+              "test_0023_85e90727ee0dfe25",
+              0
+            ],
+            [
+              "test_0024_dbe06d2ba2f9db48",
+              0
+            ],
+            [
+              "test_0025_a045721273485a27",
+              0
+            ],
+            [
+              "test_0026_9d73c8f885a03a91",
+              0
+            ],
+            [
+              "test_0027_f5c2158cf3b86b20",
+              0
+            ],
+            [
+              "test_0028_31232218293dea47",
+              0
+            ],
+            [
+              "test_0029_ec7fe2765153ed37",
+              0
+            ],
+            [
+              "test_0030_23c95a531b061d0a",
+              0
+            ],
+            [
+              "test_0031_3d659dd2dfc7cca7",
+              0
+            ]
+          ],
+          "n_scenarios": 32,
+          "right_scenarios": 32,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "withdrawal_minus_support_history_interaction": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.003707010659498142,
+          "ci_low": -0.002760921921807789,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0005685951780997588,
+          "left_scenarios": 32,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7",
+            "test_0008_75b51ab6f842dc1b",
+            "test_0009_72ae0f46ebdfa93b",
+            "test_0010_de3ed4a9a05223bd",
+            "test_0011_3f6e76588af4bfc8",
+            "test_0012_bf6d09b612b833a8",
+            "test_0013_47d229459d99b627",
+            "test_0014_9b8ad0ae624571c2",
+            "test_0015_d1f457f8240304ff",
+            "test_0016_ac014df9ba8db645",
+            "test_0017_2bce51338ea891b4",
+            "test_0018_25e98eae435ec9b7",
+            "test_0019_3cb8a9ac7aff1ed7",
+            "test_0020_4e693b6b316a69c6",
+            "test_0021_43bea0c3bb8f64db",
+            "test_0022_c832cd6756c340b8",
+            "test_0023_85e90727ee0dfe25",
+            "test_0024_dbe06d2ba2f9db48",
+            "test_0025_a045721273485a27",
+            "test_0026_9d73c8f885a03a91",
+            "test_0027_f5c2158cf3b86b20",
+            "test_0028_31232218293dea47",
+            "test_0029_ec7fe2765153ed37",
+            "test_0030_23c95a531b061d0a",
+            "test_0031_3d659dd2dfc7cca7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ],
+            [
+              "test_0008_75b51ab6f842dc1b",
+              0
+            ],
+            [
+              "test_0009_72ae0f46ebdfa93b",
+              0
+            ],
+            [
+              "test_0010_de3ed4a9a05223bd",
+              0
+            ],
+            [
+              "test_0011_3f6e76588af4bfc8",
+              0
+            ],
+            [
+              "test_0012_bf6d09b612b833a8",
+              0
+            ],
+            [
+              "test_0013_47d229459d99b627",
+              0
+            ],
+            [
+              "test_0014_9b8ad0ae624571c2",
+              0
+            ],
+            [
+              "test_0015_d1f457f8240304ff",
+              0
+            ],
+            [
+              "test_0016_ac014df9ba8db645",
+              0
+            ],
+            [
+              "test_0017_2bce51338ea891b4",
+              0
+            ],
+            [
+              "test_0018_25e98eae435ec9b7",
+              0
+            ],
+            [
+              "test_0019_3cb8a9ac7aff1ed7",
+              0
+            ],
+            [
+              "test_0020_4e693b6b316a69c6",
+              0
+            ],
+            [
+              "test_0021_43bea0c3bb8f64db",
+              0
+            ],
+            [
+              "test_0022_c832cd6756c340b8",
+              0
+            ],
+            [
+              "test_0023_85e90727ee0dfe25",
+              0
+            ],
+            [
+              "test_0024_dbe06d2ba2f9db48",
+              0
+            ],
+            [
+              "test_0025_a045721273485a27",
+              0
+            ],
+            [
+              "test_0026_9d73c8f885a03a91",
+              0
+            ],
+            [
+              "test_0027_f5c2158cf3b86b20",
+              0
+            ],
+            [
+              "test_0028_31232218293dea47",
+              0
+            ],
+            [
+              "test_0029_ec7fe2765153ed37",
+              0
+            ],
+            [
+              "test_0030_23c95a531b061d0a",
+              0
+            ],
+            [
+              "test_0031_3d659dd2dfc7cca7",
+              0
+            ]
+          ],
+          "n_scenarios": 32,
+          "right_scenarios": 32,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        }
+      }
+    },
+    {
+      "arm": "random",
+      "authorization": "authorized",
+      "metrics": {
+        "history_effect_after_withdrawal": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0028137858055285155,
+          "ci_low": -0.0029614095744094483,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0002478259103534733,
+          "left_scenarios": 32,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7",
+            "test_0008_75b51ab6f842dc1b",
+            "test_0009_72ae0f46ebdfa93b",
+            "test_0010_de3ed4a9a05223bd",
+            "test_0011_3f6e76588af4bfc8",
+            "test_0012_bf6d09b612b833a8",
+            "test_0013_47d229459d99b627",
+            "test_0014_9b8ad0ae624571c2",
+            "test_0015_d1f457f8240304ff",
+            "test_0016_ac014df9ba8db645",
+            "test_0017_2bce51338ea891b4",
+            "test_0018_25e98eae435ec9b7",
+            "test_0019_3cb8a9ac7aff1ed7",
+            "test_0020_4e693b6b316a69c6",
+            "test_0021_43bea0c3bb8f64db",
+            "test_0022_c832cd6756c340b8",
+            "test_0023_85e90727ee0dfe25",
+            "test_0024_dbe06d2ba2f9db48",
+            "test_0025_a045721273485a27",
+            "test_0026_9d73c8f885a03a91",
+            "test_0027_f5c2158cf3b86b20",
+            "test_0028_31232218293dea47",
+            "test_0029_ec7fe2765153ed37",
+            "test_0030_23c95a531b061d0a",
+            "test_0031_3d659dd2dfc7cca7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ],
+            [
+              "test_0008_75b51ab6f842dc1b",
+              0
+            ],
+            [
+              "test_0009_72ae0f46ebdfa93b",
+              0
+            ],
+            [
+              "test_0010_de3ed4a9a05223bd",
+              0
+            ],
+            [
+              "test_0011_3f6e76588af4bfc8",
+              0
+            ],
+            [
+              "test_0012_bf6d09b612b833a8",
+              0
+            ],
+            [
+              "test_0013_47d229459d99b627",
+              0
+            ],
+            [
+              "test_0014_9b8ad0ae624571c2",
+              0
+            ],
+            [
+              "test_0015_d1f457f8240304ff",
+              0
+            ],
+            [
+              "test_0016_ac014df9ba8db645",
+              0
+            ],
+            [
+              "test_0017_2bce51338ea891b4",
+              0
+            ],
+            [
+              "test_0018_25e98eae435ec9b7",
+              0
+            ],
+            [
+              "test_0019_3cb8a9ac7aff1ed7",
+              0
+            ],
+            [
+              "test_0020_4e693b6b316a69c6",
+              0
+            ],
+            [
+              "test_0021_43bea0c3bb8f64db",
+              0
+            ],
+            [
+              "test_0022_c832cd6756c340b8",
+              0
+            ],
+            [
+              "test_0023_85e90727ee0dfe25",
+              0
+            ],
+            [
+              "test_0024_dbe06d2ba2f9db48",
+              0
+            ],
+            [
+              "test_0025_a045721273485a27",
+              0
+            ],
+            [
+              "test_0026_9d73c8f885a03a91",
+              0
+            ],
+            [
+              "test_0027_f5c2158cf3b86b20",
+              0
+            ],
+            [
+              "test_0028_31232218293dea47",
+              0
+            ],
+            [
+              "test_0029_ec7fe2765153ed37",
+              0
+            ],
+            [
+              "test_0030_23c95a531b061d0a",
+              0
+            ],
+            [
+              "test_0031_3d659dd2dfc7cca7",
+              0
+            ]
+          ],
+          "n_scenarios": 32,
+          "right_scenarios": 32,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "history_effect_under_support": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0007492652791091694,
+          "ci_low": -0.00036514218145531095,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.00019270727774430008,
+          "left_scenarios": 32,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7",
+            "test_0008_75b51ab6f842dc1b",
+            "test_0009_72ae0f46ebdfa93b",
+            "test_0010_de3ed4a9a05223bd",
+            "test_0011_3f6e76588af4bfc8",
+            "test_0012_bf6d09b612b833a8",
+            "test_0013_47d229459d99b627",
+            "test_0014_9b8ad0ae624571c2",
+            "test_0015_d1f457f8240304ff",
+            "test_0016_ac014df9ba8db645",
+            "test_0017_2bce51338ea891b4",
+            "test_0018_25e98eae435ec9b7",
+            "test_0019_3cb8a9ac7aff1ed7",
+            "test_0020_4e693b6b316a69c6",
+            "test_0021_43bea0c3bb8f64db",
+            "test_0022_c832cd6756c340b8",
+            "test_0023_85e90727ee0dfe25",
+            "test_0024_dbe06d2ba2f9db48",
+            "test_0025_a045721273485a27",
+            "test_0026_9d73c8f885a03a91",
+            "test_0027_f5c2158cf3b86b20",
+            "test_0028_31232218293dea47",
+            "test_0029_ec7fe2765153ed37",
+            "test_0030_23c95a531b061d0a",
+            "test_0031_3d659dd2dfc7cca7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ],
+            [
+              "test_0008_75b51ab6f842dc1b",
+              0
+            ],
+            [
+              "test_0009_72ae0f46ebdfa93b",
+              0
+            ],
+            [
+              "test_0010_de3ed4a9a05223bd",
+              0
+            ],
+            [
+              "test_0011_3f6e76588af4bfc8",
+              0
+            ],
+            [
+              "test_0012_bf6d09b612b833a8",
+              0
+            ],
+            [
+              "test_0013_47d229459d99b627",
+              0
+            ],
+            [
+              "test_0014_9b8ad0ae624571c2",
+              0
+            ],
+            [
+              "test_0015_d1f457f8240304ff",
+              0
+            ],
+            [
+              "test_0016_ac014df9ba8db645",
+              0
+            ],
+            [
+              "test_0017_2bce51338ea891b4",
+              0
+            ],
+            [
+              "test_0018_25e98eae435ec9b7",
+              0
+            ],
+            [
+              "test_0019_3cb8a9ac7aff1ed7",
+              0
+            ],
+            [
+              "test_0020_4e693b6b316a69c6",
+              0
+            ],
+            [
+              "test_0021_43bea0c3bb8f64db",
+              0
+            ],
+            [
+              "test_0022_c832cd6756c340b8",
+              0
+            ],
+            [
+              "test_0023_85e90727ee0dfe25",
+              0
+            ],
+            [
+              "test_0024_dbe06d2ba2f9db48",
+              0
+            ],
+            [
+              "test_0025_a045721273485a27",
+              0
+            ],
+            [
+              "test_0026_9d73c8f885a03a91",
+              0
+            ],
+            [
+              "test_0027_f5c2158cf3b86b20",
+              0
+            ],
+            [
+              "test_0028_31232218293dea47",
+              0
+            ],
+            [
+              "test_0029_ec7fe2765153ed37",
+              0
+            ],
+            [
+              "test_0030_23c95a531b061d0a",
+              0
+            ],
+            [
+              "test_0031_3d659dd2dfc7cca7",
+              0
+            ]
+          ],
+          "n_scenarios": 32,
+          "right_scenarios": 32,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "withdrawal_minus_support_history_interaction": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.002769830186637444,
+          "ci_low": -0.003367754381960731,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 5.511863260917321e-05,
+          "left_scenarios": 32,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7",
+            "test_0008_75b51ab6f842dc1b",
+            "test_0009_72ae0f46ebdfa93b",
+            "test_0010_de3ed4a9a05223bd",
+            "test_0011_3f6e76588af4bfc8",
+            "test_0012_bf6d09b612b833a8",
+            "test_0013_47d229459d99b627",
+            "test_0014_9b8ad0ae624571c2",
+            "test_0015_d1f457f8240304ff",
+            "test_0016_ac014df9ba8db645",
+            "test_0017_2bce51338ea891b4",
+            "test_0018_25e98eae435ec9b7",
+            "test_0019_3cb8a9ac7aff1ed7",
+            "test_0020_4e693b6b316a69c6",
+            "test_0021_43bea0c3bb8f64db",
+            "test_0022_c832cd6756c340b8",
+            "test_0023_85e90727ee0dfe25",
+            "test_0024_dbe06d2ba2f9db48",
+            "test_0025_a045721273485a27",
+            "test_0026_9d73c8f885a03a91",
+            "test_0027_f5c2158cf3b86b20",
+            "test_0028_31232218293dea47",
+            "test_0029_ec7fe2765153ed37",
+            "test_0030_23c95a531b061d0a",
+            "test_0031_3d659dd2dfc7cca7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ],
+            [
+              "test_0008_75b51ab6f842dc1b",
+              0
+            ],
+            [
+              "test_0009_72ae0f46ebdfa93b",
+              0
+            ],
+            [
+              "test_0010_de3ed4a9a05223bd",
+              0
+            ],
+            [
+              "test_0011_3f6e76588af4bfc8",
+              0
+            ],
+            [
+              "test_0012_bf6d09b612b833a8",
+              0
+            ],
+            [
+              "test_0013_47d229459d99b627",
+              0
+            ],
+            [
+              "test_0014_9b8ad0ae624571c2",
+              0
+            ],
+            [
+              "test_0015_d1f457f8240304ff",
+              0
+            ],
+            [
+              "test_0016_ac014df9ba8db645",
+              0
+            ],
+            [
+              "test_0017_2bce51338ea891b4",
+              0
+            ],
+            [
+              "test_0018_25e98eae435ec9b7",
+              0
+            ],
+            [
+              "test_0019_3cb8a9ac7aff1ed7",
+              0
+            ],
+            [
+              "test_0020_4e693b6b316a69c6",
+              0
+            ],
+            [
+              "test_0021_43bea0c3bb8f64db",
+              0
+            ],
+            [
+              "test_0022_c832cd6756c340b8",
+              0
+            ],
+            [
+              "test_0023_85e90727ee0dfe25",
+              0
+            ],
+            [
+              "test_0024_dbe06d2ba2f9db48",
+              0
+            ],
+            [
+              "test_0025_a045721273485a27",
+              0
+            ],
+            [
+              "test_0026_9d73c8f885a03a91",
+              0
+            ],
+            [
+              "test_0027_f5c2158cf3b86b20",
+              0
+            ],
+            [
+              "test_0028_31232218293dea47",
+              0
+            ],
+            [
+              "test_0029_ec7fe2765153ed37",
+              0
+            ],
+            [
+              "test_0030_23c95a531b061d0a",
+              0
+            ],
+            [
+              "test_0031_3d659dd2dfc7cca7",
+              0
+            ]
+          ],
+          "n_scenarios": 32,
+          "right_scenarios": 32,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        }
+      }
+    },
+    {
+      "arm": "rule_reminder",
+      "authorization": "authorized",
+      "metrics": {
+        "history_effect_after_withdrawal": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.004029257042318201,
+          "ci_low": -0.010388839438888603,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": -0.003065819553969864,
+          "left_scenarios": 32,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7",
+            "test_0008_75b51ab6f842dc1b",
+            "test_0009_72ae0f46ebdfa93b",
+            "test_0010_de3ed4a9a05223bd",
+            "test_0011_3f6e76588af4bfc8",
+            "test_0012_bf6d09b612b833a8",
+            "test_0013_47d229459d99b627",
+            "test_0014_9b8ad0ae624571c2",
+            "test_0015_d1f457f8240304ff",
+            "test_0016_ac014df9ba8db645",
+            "test_0017_2bce51338ea891b4",
+            "test_0018_25e98eae435ec9b7",
+            "test_0019_3cb8a9ac7aff1ed7",
+            "test_0020_4e693b6b316a69c6",
+            "test_0021_43bea0c3bb8f64db",
+            "test_0022_c832cd6756c340b8",
+            "test_0023_85e90727ee0dfe25",
+            "test_0024_dbe06d2ba2f9db48",
+            "test_0025_a045721273485a27",
+            "test_0026_9d73c8f885a03a91",
+            "test_0027_f5c2158cf3b86b20",
+            "test_0028_31232218293dea47",
+            "test_0029_ec7fe2765153ed37",
+            "test_0030_23c95a531b061d0a",
+            "test_0031_3d659dd2dfc7cca7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ],
+            [
+              "test_0008_75b51ab6f842dc1b",
+              0
+            ],
+            [
+              "test_0009_72ae0f46ebdfa93b",
+              0
+            ],
+            [
+              "test_0010_de3ed4a9a05223bd",
+              0
+            ],
+            [
+              "test_0011_3f6e76588af4bfc8",
+              0
+            ],
+            [
+              "test_0012_bf6d09b612b833a8",
+              0
+            ],
+            [
+              "test_0013_47d229459d99b627",
+              0
+            ],
+            [
+              "test_0014_9b8ad0ae624571c2",
+              0
+            ],
+            [
+              "test_0015_d1f457f8240304ff",
+              0
+            ],
+            [
+              "test_0016_ac014df9ba8db645",
+              0
+            ],
+            [
+              "test_0017_2bce51338ea891b4",
+              0
+            ],
+            [
+              "test_0018_25e98eae435ec9b7",
+              0
+            ],
+            [
+              "test_0019_3cb8a9ac7aff1ed7",
+              0
+            ],
+            [
+              "test_0020_4e693b6b316a69c6",
+              0
+            ],
+            [
+              "test_0021_43bea0c3bb8f64db",
+              0
+            ],
+            [
+              "test_0022_c832cd6756c340b8",
+              0
+            ],
+            [
+              "test_0023_85e90727ee0dfe25",
+              0
+            ],
+            [
+              "test_0024_dbe06d2ba2f9db48",
+              0
+            ],
+            [
+              "test_0025_a045721273485a27",
+              0
+            ],
+            [
+              "test_0026_9d73c8f885a03a91",
+              0
+            ],
+            [
+              "test_0027_f5c2158cf3b86b20",
+              0
+            ],
+            [
+              "test_0028_31232218293dea47",
+              0
+            ],
+            [
+              "test_0029_ec7fe2765153ed37",
+              0
+            ],
+            [
+              "test_0030_23c95a531b061d0a",
+              0
+            ],
+            [
+              "test_0031_3d659dd2dfc7cca7",
+              0
+            ]
+          ],
+          "n_scenarios": 32,
+          "right_scenarios": 32,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "history_effect_under_support": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.002770211323280642,
+          "ci_low": 0.000746105433279737,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0017090611288446862,
+          "left_scenarios": 32,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7",
+            "test_0008_75b51ab6f842dc1b",
+            "test_0009_72ae0f46ebdfa93b",
+            "test_0010_de3ed4a9a05223bd",
+            "test_0011_3f6e76588af4bfc8",
+            "test_0012_bf6d09b612b833a8",
+            "test_0013_47d229459d99b627",
+            "test_0014_9b8ad0ae624571c2",
+            "test_0015_d1f457f8240304ff",
+            "test_0016_ac014df9ba8db645",
+            "test_0017_2bce51338ea891b4",
+            "test_0018_25e98eae435ec9b7",
+            "test_0019_3cb8a9ac7aff1ed7",
+            "test_0020_4e693b6b316a69c6",
+            "test_0021_43bea0c3bb8f64db",
+            "test_0022_c832cd6756c340b8",
+            "test_0023_85e90727ee0dfe25",
+            "test_0024_dbe06d2ba2f9db48",
+            "test_0025_a045721273485a27",
+            "test_0026_9d73c8f885a03a91",
+            "test_0027_f5c2158cf3b86b20",
+            "test_0028_31232218293dea47",
+            "test_0029_ec7fe2765153ed37",
+            "test_0030_23c95a531b061d0a",
+            "test_0031_3d659dd2dfc7cca7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ],
+            [
+              "test_0008_75b51ab6f842dc1b",
+              0
+            ],
+            [
+              "test_0009_72ae0f46ebdfa93b",
+              0
+            ],
+            [
+              "test_0010_de3ed4a9a05223bd",
+              0
+            ],
+            [
+              "test_0011_3f6e76588af4bfc8",
+              0
+            ],
+            [
+              "test_0012_bf6d09b612b833a8",
+              0
+            ],
+            [
+              "test_0013_47d229459d99b627",
+              0
+            ],
+            [
+              "test_0014_9b8ad0ae624571c2",
+              0
+            ],
+            [
+              "test_0015_d1f457f8240304ff",
+              0
+            ],
+            [
+              "test_0016_ac014df9ba8db645",
+              0
+            ],
+            [
+              "test_0017_2bce51338ea891b4",
+              0
+            ],
+            [
+              "test_0018_25e98eae435ec9b7",
+              0
+            ],
+            [
+              "test_0019_3cb8a9ac7aff1ed7",
+              0
+            ],
+            [
+              "test_0020_4e693b6b316a69c6",
+              0
+            ],
+            [
+              "test_0021_43bea0c3bb8f64db",
+              0
+            ],
+            [
+              "test_0022_c832cd6756c340b8",
+              0
+            ],
+            [
+              "test_0023_85e90727ee0dfe25",
+              0
+            ],
+            [
+              "test_0024_dbe06d2ba2f9db48",
+              0
+            ],
+            [
+              "test_0025_a045721273485a27",
+              0
+            ],
+            [
+              "test_0026_9d73c8f885a03a91",
+              0
+            ],
+            [
+              "test_0027_f5c2158cf3b86b20",
+              0
+            ],
+            [
+              "test_0028_31232218293dea47",
+              0
+            ],
+            [
+              "test_0029_ec7fe2765153ed37",
+              0
+            ],
+            [
+              "test_0030_23c95a531b061d0a",
+              0
+            ],
+            [
+              "test_0031_3d659dd2dfc7cca7",
+              0
+            ]
+          ],
+          "n_scenarios": 32,
+          "right_scenarios": 32,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "withdrawal_minus_support_history_interaction": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.002174264981602188,
+          "ci_low": -0.012191445555485653,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": -0.00477488068281455,
+          "left_scenarios": 32,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7",
+            "test_0008_75b51ab6f842dc1b",
+            "test_0009_72ae0f46ebdfa93b",
+            "test_0010_de3ed4a9a05223bd",
+            "test_0011_3f6e76588af4bfc8",
+            "test_0012_bf6d09b612b833a8",
+            "test_0013_47d229459d99b627",
+            "test_0014_9b8ad0ae624571c2",
+            "test_0015_d1f457f8240304ff",
+            "test_0016_ac014df9ba8db645",
+            "test_0017_2bce51338ea891b4",
+            "test_0018_25e98eae435ec9b7",
+            "test_0019_3cb8a9ac7aff1ed7",
+            "test_0020_4e693b6b316a69c6",
+            "test_0021_43bea0c3bb8f64db",
+            "test_0022_c832cd6756c340b8",
+            "test_0023_85e90727ee0dfe25",
+            "test_0024_dbe06d2ba2f9db48",
+            "test_0025_a045721273485a27",
+            "test_0026_9d73c8f885a03a91",
+            "test_0027_f5c2158cf3b86b20",
+            "test_0028_31232218293dea47",
+            "test_0029_ec7fe2765153ed37",
+            "test_0030_23c95a531b061d0a",
+            "test_0031_3d659dd2dfc7cca7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ],
+            [
+              "test_0008_75b51ab6f842dc1b",
+              0
+            ],
+            [
+              "test_0009_72ae0f46ebdfa93b",
+              0
+            ],
+            [
+              "test_0010_de3ed4a9a05223bd",
+              0
+            ],
+            [
+              "test_0011_3f6e76588af4bfc8",
+              0
+            ],
+            [
+              "test_0012_bf6d09b612b833a8",
+              0
+            ],
+            [
+              "test_0013_47d229459d99b627",
+              0
+            ],
+            [
+              "test_0014_9b8ad0ae624571c2",
+              0
+            ],
+            [
+              "test_0015_d1f457f8240304ff",
+              0
+            ],
+            [
+              "test_0016_ac014df9ba8db645",
+              0
+            ],
+            [
+              "test_0017_2bce51338ea891b4",
+              0
+            ],
+            [
+              "test_0018_25e98eae435ec9b7",
+              0
+            ],
+            [
+              "test_0019_3cb8a9ac7aff1ed7",
+              0
+            ],
+            [
+              "test_0020_4e693b6b316a69c6",
+              0
+            ],
+            [
+              "test_0021_43bea0c3bb8f64db",
+              0
+            ],
+            [
+              "test_0022_c832cd6756c340b8",
+              0
+            ],
+            [
+              "test_0023_85e90727ee0dfe25",
+              0
+            ],
+            [
+              "test_0024_dbe06d2ba2f9db48",
+              0
+            ],
+            [
+              "test_0025_a045721273485a27",
+              0
+            ],
+            [
+              "test_0026_9d73c8f885a03a91",
+              0
+            ],
+            [
+              "test_0027_f5c2158cf3b86b20",
+              0
+            ],
+            [
+              "test_0028_31232218293dea47",
+              0
+            ],
+            [
+              "test_0029_ec7fe2765153ed37",
+              0
+            ],
+            [
+              "test_0030_23c95a531b061d0a",
+              0
+            ],
+            [
+              "test_0031_3d659dd2dfc7cca7",
+              0
+            ]
+          ],
+          "n_scenarios": 32,
+          "right_scenarios": 32,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        }
+      }
+    }
+  ]
+}

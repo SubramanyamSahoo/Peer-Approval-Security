@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "before-they-act"
+version = "0.2.0"
+description = "Controlled collective-commitment experiments for cooperative AI and LLM security"
+requires-python = ">=3.12"
+dependencies = ["torch==2.10.0", "transformers==5.17.0", "huggingface-hub==1.31.0",
+                "safetensors==0.8.0", "matplotlib==3.11.2", "accelerate==1.15.0"]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+cuda = ["flash-linear-attention==0.5.2", "causal-conv1d==1.7.0"]
+
+[project.scripts]
+bta = "bta.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bta*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

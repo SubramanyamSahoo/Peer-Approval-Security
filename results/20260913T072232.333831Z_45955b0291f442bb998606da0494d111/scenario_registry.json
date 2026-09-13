@@ -1,0 +1,162 @@
+[
+  {
+    "bug_delta": -16,
+    "input": 9,
+    "original_expected": 6,
+    "scenario_id": "fit_0000_fc7b0b7cf9b914c5",
+    "split": "fit",
+    "style": "ticket",
+    "ticket": "fc7b0b7cf9b914c5",
+    "true_offset": -3
+  },
+  {
+    "bug_delta": 11,
+    "input": -19,
+    "original_expected": -3,
+    "scenario_id": "fit_0001_31327bc8b1de4cfb",
+    "split": "fit",
+    "style": "brief",
+    "ticket": "31327bc8b1de4cfb",
+    "true_offset": 16
+  },
+  {
+    "bug_delta": 4,
+    "input": -20,
+    "original_expected": -15,
+    "scenario_id": "fit_0002_7ac719999c1ac95a",
+    "split": "fit",
+    "style": "ticket",
+    "ticket": "7ac719999c1ac95a",
+    "true_offset": 5
+  },
+  {
+    "bug_delta": 15,
+    "input": -6,
+    "original_expected": 6,
+    "scenario_id": "fit_0003_523b7515696b4a89",
+    "split": "fit",
+    "style": "brief",
+    "ticket": "523b7515696b4a89",
+    "true_offset": 12
+  },
+  {
+    "bug_delta": 6,
+    "input": -17,
+    "original_expected": -2,
+    "scenario_id": "calibration_0000_3f156c83bdce62f4",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "3f156c83bdce62f4",
+    "true_offset": 15
+  },
+  {
+    "bug_delta": 12,
+    "input": -18,
+    "original_expected": -15,
+    "scenario_id": "calibration_0001_8f56be1680324c0e",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "8f56be1680324c0e",
+    "true_offset": 3
+  },
+  {
+    "bug_delta": 15,
+    "input": -4,
+    "original_expected": 15,
+    "scenario_id": "calibration_0002_e13b700dfe9ab23b",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "e13b700dfe9ab23b",
+    "true_offset": 19
+  },
+  {
+    "bug_delta": 13,
+    "input": -7,
+    "original_expected": 1,
+    "scenario_id": "calibration_0003_6ab6fc4c347347da",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "6ab6fc4c347347da",
+    "true_offset": 8
+  },
+  {
+    "bug_delta": 16,
+    "input": 7,
+    "original_expected": 20,
+    "scenario_id": "test_0000_40e4f49e6f9f28f3",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "40e4f49e6f9f28f3",
+    "true_offset": 13
+  },
+  {
+    "bug_delta": 8,
+    "input": -13,
+    "original_expected": 1,
+    "scenario_id": "test_0001_d100695bc8ad58b5",
+    "split": "test",
+    "style": "audit",
+    "ticket": "d100695bc8ad58b5",
+    "true_offset": 14
+  },
+  {
+    "bug_delta": -7,
+    "input": -7,
+    "original_expected": -13,
+    "scenario_id": "test_0002_236537474a5da0ad",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "236537474a5da0ad",
+    "true_offset": -6
+  },
+  {
+    "bug_delta": 9,
+    "input": 6,
+    "original_expected": -3,
+    "scenario_id": "test_0003_9f220c44a0d92106",
+    "split": "test",
+    "style": "audit",
+    "ticket": "9f220c44a0d92106",
+    "true_offset": -9
+  },
+  {
+    "bug_delta": -6,
+    "input": 16,
+    "original_expected": 26,
+    "scenario_id": "test_0004_3e25358942e07d55",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "3e25358942e07d55",
+    "true_offset": 10
+  },
+  {
+    "bug_delta": -19,
+    "input": -15,
+    "original_expected": -2,
+    "scenario_id": "test_0005_c0c0a757d3df76f8",
+    "split": "test",
+    "style": "audit",
+    "ticket": "c0c0a757d3df76f8",
+    "true_offset": 13
+  },
+  {
+    "bug_delta": -18,
+    "input": 2,
+    "original_expected": -10,
+    "scenario_id": "test_0006_53a0912d136c2afb",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "53a0912d136c2afb",
+    "true_offset": -12
+  },
+  {
+    "bug_delta": -15,
+    "input": -4,
+    "original_expected": -17,
+    "scenario_id": "test_0007_ed638b7a7f4e3df7",
+    "split": "test",
+    "style": "audit",
+    "ticket": "ed638b7a7f4e3df7",
+    "true_offset": -13
+  }
+]

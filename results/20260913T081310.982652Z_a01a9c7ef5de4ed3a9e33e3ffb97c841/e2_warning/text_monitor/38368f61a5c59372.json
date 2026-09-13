@@ -1,0 +1,15 @@
+{
+  "observation_id": "38368f61a5c59372",
+  "prompt_tokens": 610,
+  "response_diagnostics": {
+    "available_action_count": 2,
+    "available_label_probability_mass": 0.9820619853966222,
+    "below_control_label_mass_reference": true,
+    "control_label_mass_reference": 0.9973059628593055,
+    "unconstrained_argmax_is_available_label": true,
+    "unconstrained_argmax_token": "B",
+    "unconstrained_argmax_token_id": 33
+  },
+  "risk_score": 0.07585818002124356,
+  "status": "scored"
+}

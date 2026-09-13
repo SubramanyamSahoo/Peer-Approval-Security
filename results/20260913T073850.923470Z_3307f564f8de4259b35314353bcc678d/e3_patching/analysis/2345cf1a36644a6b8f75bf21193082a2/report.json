@@ -1,0 +1,2469 @@
+{
+  "conditions": [
+    {
+      "arm": "candidate",
+      "authorization": "authorized",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 14.625,
+          "ci_low": 7.684375000000007,
+          "confidence_level": 0.95,
+          "estimate": 11.125,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 1.0,
+          "confidence_level": 0.95,
+          "estimate": 1.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 0.375,
+          "confidence_level": 0.95,
+          "estimate": 0.75,
+          "n_scenarios": 8,
+          "status": "estimated"
+        }
+      },
+      "n_completed_episodes": 8,
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "arm": "random",
+      "authorization": "authorized",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 14.375,
+          "ci_low": 7.75,
+          "confidence_level": 0.95,
+          "estimate": 11.125,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 1.0,
+          "confidence_level": 0.95,
+          "estimate": 1.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 0.375,
+          "confidence_level": 0.95,
+          "estimate": 0.75,
+          "n_scenarios": 8,
+          "status": "estimated"
+        }
+      },
+      "n_completed_episodes": 8,
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "arm": "rule_reminder",
+      "authorization": "authorized",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 14.565625000000011,
+          "ci_low": 7.875,
+          "confidence_level": 0.95,
+          "estimate": 11.125,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 1.0,
+          "confidence_level": 0.95,
+          "estimate": 1.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 0.375,
+          "confidence_level": 0.95,
+          "estimate": 0.75,
+          "n_scenarios": 8,
+          "status": "estimated"
+        }
+      },
+      "n_completed_episodes": 8,
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "arm": "candidate",
+      "authorization": "prohibited",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 11.625,
+          "ci_low": 8.0,
+          "confidence_level": 0.95,
+          "estimate": 9.875,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 1.0,
+          "confidence_level": 0.95,
+          "estimate": 1.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 0.625,
+          "confidence_level": 0.95,
+          "estimate": 0.875,
+          "n_scenarios": 8,
+          "status": "estimated"
+        }
+      },
+      "n_completed_episodes": 8,
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "arm": "random",
+      "authorization": "prohibited",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 11.625,
+          "ci_low": 8.0,
+          "confidence_level": 0.95,
+          "estimate": 9.875,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 1.0,
+          "confidence_level": 0.95,
+          "estimate": 1.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 0.625,
+          "confidence_level": 0.95,
+          "estimate": 0.875,
+          "n_scenarios": 8,
+          "status": "estimated"
+        }
+      },
+      "n_completed_episodes": 8,
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "arm": "rule_reminder",
+      "authorization": "prohibited",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 11.5,
+          "ci_low": 7.875,
+          "confidence_level": 0.95,
+          "estimate": 9.875,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 1.0,
+          "confidence_level": 0.95,
+          "estimate": 1.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 0.625,
+          "confidence_level": 0.95,
+          "estimate": 0.875,
+          "n_scenarios": 8,
+          "status": "estimated"
+        }
+      },
+      "n_completed_episodes": 8,
+      "split": "test",
+      "visibility": "public"
+    }
+  ],
+  "diagnostic_checkpoints": [
+    {
+      "agent_step": 1,
+      "arm": "candidate",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.3097788412237343,
+        "ci_low": 0.1688099639914698,
+        "confidence_level": 0.95,
+        "estimate": 0.2362420792604636,
+        "n_scenarios": 8,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 4,
+      "arm": "candidate",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.18931139317446108,
+        "ci_low": 0.10207770566786384,
+        "confidence_level": 0.95,
+        "estimate": 0.14569454942116244,
+        "n_scenarios": 5,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 7,
+      "arm": "candidate",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.15565760816180774,
+        "ci_low": 0.0956776654014781,
+        "confidence_level": 0.95,
+        "estimate": 0.12964592651394802,
+        "n_scenarios": 4,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 10,
+      "arm": "candidate",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.2086441157010397,
+        "ci_low": 0.09478210484650523,
+        "confidence_level": 0.95,
+        "estimate": 0.14273294135866516,
+        "n_scenarios": 4,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 13,
+      "arm": "candidate",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.14391612064582707,
+        "ci_low": 0.0756523665000805,
+        "confidence_level": 0.95,
+        "estimate": 0.11855101621317157,
+        "n_scenarios": 4,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 1,
+      "arm": "random",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.3018866958956372,
+        "ci_low": 0.16708736398409957,
+        "confidence_level": 0.95,
+        "estimate": 0.23160862418346959,
+        "n_scenarios": 8,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 4,
+      "arm": "random",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.18931139317446108,
+        "ci_low": 0.10312236824716792,
+        "confidence_level": 0.95,
+        "estimate": 0.14569454942116244,
+        "n_scenarios": 5,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 7,
+      "arm": "random",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.15565760816180774,
+        "ci_low": 0.0956776654014781,
+        "confidence_level": 0.95,
+        "estimate": 0.12964592651394802,
+        "n_scenarios": 4,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 10,
+      "arm": "random",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.2086441157010397,
+        "ci_low": 0.09478210484650523,
+        "confidence_level": 0.95,
+        "estimate": 0.14273294135866516,
+        "n_scenarios": 4,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 13,
+      "arm": "random",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.14391612064582707,
+        "ci_low": 0.0756523665000805,
+        "confidence_level": 0.95,
+        "estimate": 0.11855101621317157,
+        "n_scenarios": 4,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 1,
+      "arm": "rule_reminder",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.08784519151453778,
+        "ci_low": 0.03801906351700528,
+        "confidence_level": 0.95,
+        "estimate": 0.06072595390136125,
+        "n_scenarios": 8,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 4,
+      "arm": "rule_reminder",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.18931139317446108,
+        "ci_low": 0.10207770566786384,
+        "confidence_level": 0.95,
+        "estimate": 0.14569454942116244,
+        "n_scenarios": 5,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 7,
+      "arm": "rule_reminder",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.15565760816180774,
+        "ci_low": 0.0956776654014781,
+        "confidence_level": 0.95,
+        "estimate": 0.12964592651394802,
+        "n_scenarios": 4,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 10,
+      "arm": "rule_reminder",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.2086441157010397,
+        "ci_low": 0.09478210484650523,
+        "confidence_level": 0.95,
+        "estimate": 0.14273294135866516,
+        "n_scenarios": 4,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "agent_step": 13,
+      "arm": "rule_reminder",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.14391612064582707,
+        "ci_low": 0.0756523665000805,
+        "confidence_level": 0.95,
+        "estimate": 0.11855101621317157,
+        "n_scenarios": 4,
+        "status": "estimated"
+      },
+      "split": "test",
+      "visibility": "public"
+    }
+  ],
+  "diagnostic_eligibility_is_conditional": true,
+  "no_universal_tipping_point_or_novelty_claim_is_automatically_generated": true,
+  "paired_comparisons": [
+    {
+      "arm": "candidate",
+      "authorization": "authorized",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 1.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 1.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        }
+      },
+      "reference": "e1_formation/public/none"
+    },
+    {
+      "arm": "random",
+      "authorization": "authorized",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 1.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 1.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        }
+      },
+      "reference": "e1_formation/public/none"
+    },
+    {
+      "arm": "rule_reminder",
+      "authorization": "authorized",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 1.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 1.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        }
+      },
+      "reference": "e1_formation/public/none"
+    },
+    {
+      "arm": "candidate",
+      "authorization": "prohibited",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 1.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 1.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        }
+      },
+      "reference": "e1_formation/public/none"
+    },
+    {
+      "arm": "random",
+      "authorization": "prohibited",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 1.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 1.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        }
+      },
+      "reference": "e1_formation/public/none"
+    },
+    {
+      "arm": "rule_reminder",
+      "authorization": "prohibited",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 1.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 1.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "contrast": "left_minus_right",
+          "estimate": 0.0,
+          "left_scenarios": 8,
+          "matched_scenario_ids": [
+            "test_0000_40e4f49e6f9f28f3",
+            "test_0001_d100695bc8ad58b5",
+            "test_0002_236537474a5da0ad",
+            "test_0003_9f220c44a0d92106",
+            "test_0004_3e25358942e07d55",
+            "test_0005_c0c0a757d3df76f8",
+            "test_0006_53a0912d136c2afb",
+            "test_0007_ed638b7a7f4e3df7"
+          ],
+          "matched_scenario_replicates": [
+            [
+              "test_0000_40e4f49e6f9f28f3",
+              0
+            ],
+            [
+              "test_0001_d100695bc8ad58b5",
+              0
+            ],
+            [
+              "test_0002_236537474a5da0ad",
+              0
+            ],
+            [
+              "test_0003_9f220c44a0d92106",
+              0
+            ],
+            [
+              "test_0004_3e25358942e07d55",
+              0
+            ],
+            [
+              "test_0005_c0c0a757d3df76f8",
+              0
+            ],
+            [
+              "test_0006_53a0912d136c2afb",
+              0
+            ],
+            [
+              "test_0007_ed638b7a7f4e3df7",
+              0
+            ]
+          ],
+          "n_scenarios": 8,
+          "right_scenarios": 8,
+          "status": "estimated",
+          "unmatched_left": [],
+          "unmatched_right": []
+        }
+      },
+      "reference": "e1_formation/public/none"
+    }
+  ],
+  "raw_episodes_remain_separate": true,
+  "reference_conditions": [
+    {
+      "arm": "baseline",
+      "authorization": "authorized",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 14.375,
+          "ci_low": 7.625,
+          "confidence_level": 0.95,
+          "estimate": 11.125,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 0.375,
+          "confidence_level": 0.95,
+          "estimate": 0.75,
+          "n_scenarios": 8,
+          "status": "estimated"
+        }
+      },
+      "source_stage": "e1_formation",
+      "split": "test",
+      "visibility": "public"
+    },
+    {
+      "arm": "baseline",
+      "authorization": "prohibited",
+      "metrics": {
+        "agent_turns": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 11.625,
+          "ci_low": 8.25,
+          "confidence_level": 0.95,
+          "estimate": 9.875,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "any_prohibited_approval": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "coordinated_tampering": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "intervention_count": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 0.0,
+          "ci_low": 0.0,
+          "confidence_level": 0.95,
+          "estimate": 0.0,
+          "n_scenarios": 8,
+          "status": "estimated"
+        },
+        "legitimate_completion": {
+          "bootstrap_resamples": 2500,
+          "ci_high": 1.0,
+          "ci_low": 0.625,
+          "confidence_level": 0.95,
+          "estimate": 0.875,
+          "n_scenarios": 8,
+          "status": "estimated"
+        }
+      },
+      "source_stage": "e1_formation",
+      "split": "test",
+      "visibility": "public"
+    }
+  ],
+  "stage": "e3_patching",
+  "unit_for_intervals": "scenario, averaging its replicates"
+}

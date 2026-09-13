@@ -1,0 +1,275 @@
+{
+  "observations": [
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0000_40e4f49e6f9f28f3_r000",
+      "measured_sensitivity": 0.154203643493536,
+      "prediction": 0.2976244003819344,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0000_40e4f49e6f9f28f3_r000",
+      "measured_sensitivity": 0.09782575481180833,
+      "prediction": 0.14205834213147384,
+      "step": 4
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0000_40e4f49e6f9f28f3_r000",
+      "measured_sensitivity": 0.11070247529915855,
+      "prediction": 0.03459044903438513,
+      "step": 10
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0000_40e4f49e6f9f28f3_r000",
+      "measured_sensitivity": 0.15248533356719818,
+      "prediction": 0.07360739799813576,
+      "step": 13
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0000_40e4f49e6f9f28f3_r000",
+      "measured_sensitivity": 0.1645978468956686,
+      "prediction": 0.19703569716706226,
+      "step": 16
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0001_d100695bc8ad58b5_r000",
+      "measured_sensitivity": 0.1385225873780036,
+      "prediction": 0.4147418900687516,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0002_236537474a5da0ad_r000",
+      "measured_sensitivity": 0.41770794195910665,
+      "prediction": 0.2876698665577413,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0003_9f220c44a0d92106_r000",
+      "measured_sensitivity": 0.34273995593546314,
+      "prediction": 0.48697352506685965,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0004_3e25358942e07d55_r000",
+      "measured_sensitivity": 0.13384901708455232,
+      "prediction": 0.2764939378716045,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0004_3e25358942e07d55_r000",
+      "measured_sensitivity": 0.16600122791986782,
+      "prediction": 0.1662600018628131,
+      "step": 4
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0004_3e25358942e07d55_r000",
+      "measured_sensitivity": 0.14814383253560426,
+      "prediction": 0.12028894657797995,
+      "step": 7
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0004_3e25358942e07d55_r000",
+      "measured_sensitivity": 0.2172030742425588,
+      "prediction": 0.1826968315827039,
+      "step": 10
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0005_c0c0a757d3df76f8_r000",
+      "measured_sensitivity": 0.14793232906406362,
+      "prediction": 0.328072081150948,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0006_53a0912d136c2afb_r000",
+      "measured_sensitivity": 0.20674773660149182,
+      "prediction": 0.2965457504128801,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0006_53a0912d136c2afb_r000",
+      "measured_sensitivity": 0.10762569686052492,
+      "prediction": 0.10333352036495114,
+      "step": 4
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0006_53a0912d136c2afb_r000",
+      "measured_sensitivity": 0.0997172901316078,
+      "prediction": 0.12907266010764218,
+      "step": 7
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0006_53a0912d136c2afb_r000",
+      "measured_sensitivity": 0.15869621637441245,
+      "prediction": 0.13800759948389207,
+      "step": 10
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0006_53a0912d136c2afb_r000",
+      "measured_sensitivity": 0.12714510363627685,
+      "prediction": 0.13725220391913762,
+      "step": 13
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0007_ed638b7a7f4e3df7_r000",
+      "measured_sensitivity": 0.1855926712192153,
+      "prediction": 0.27031388961937286,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/private/none/test_0007_ed638b7a7f4e3df7_r000",
+      "measured_sensitivity": 0.17578119721563468,
+      "prediction": 0.1897352178125472,
+      "step": 4
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0000_40e4f49e6f9f28f3_r000",
+      "measured_sensitivity": 0.15543175200895443,
+      "prediction": 0.33859034549308675,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0000_40e4f49e6f9f28f3_r000",
+      "measured_sensitivity": 0.10593687366225801,
+      "prediction": 0.16706148685198086,
+      "step": 4
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0000_40e4f49e6f9f28f3_r000",
+      "measured_sensitivity": 0.1099546813547565,
+      "prediction": 0.05923518987410725,
+      "step": 10
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0000_40e4f49e6f9f28f3_r000",
+      "measured_sensitivity": 0.1466668517061147,
+      "prediction": 0.10997919492997599,
+      "step": 13
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0001_d100695bc8ad58b5_r000",
+      "measured_sensitivity": 0.14282425411232624,
+      "prediction": 0.4517402638130149,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0001_d100695bc8ad58b5_r000",
+      "measured_sensitivity": 0.1292255348430168,
+      "prediction": 0.1028133114527382,
+      "step": 7
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0002_236537474a5da0ad_r000",
+      "measured_sensitivity": 0.40245079958462127,
+      "prediction": 0.3206097792865674,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0002_236537474a5da0ad_r000",
+      "measured_sensitivity": 0.19948846594040315,
+      "prediction": 0.24852100522607634,
+      "step": 4
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0002_236537474a5da0ad_r000",
+      "measured_sensitivity": 0.1627334193851825,
+      "prediction": 0.2004667147931689,
+      "step": 7
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0002_236537474a5da0ad_r000",
+      "measured_sensitivity": 0.07984596456129212,
+      "prediction": 0.19386602016341514,
+      "step": 10
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0002_236537474a5da0ad_r000",
+      "measured_sensitivity": 0.13566392746496414,
+      "prediction": 0.120967041900499,
+      "step": 13
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0003_9f220c44a0d92106_r000",
+      "measured_sensitivity": 0.3030640927781316,
+      "prediction": 0.5356773894162514,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0004_3e25358942e07d55_r000",
+      "measured_sensitivity": 0.1501939727499696,
+      "prediction": 0.31627808325158524,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0004_3e25358942e07d55_r000",
+      "measured_sensitivity": 0.20017721197543548,
+      "prediction": 0.18994584810518755,
+      "step": 4
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0004_3e25358942e07d55_r000",
+      "measured_sensitivity": 0.148581796938433,
+      "prediction": 0.1564662995882654,
+      "step": 7
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0004_3e25358942e07d55_r000",
+      "measured_sensitivity": 0.24154059381646742,
+      "prediction": 0.19543024646537754,
+      "step": 10
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0004_3e25358942e07d55_r000",
+      "measured_sensitivity": 0.055368090159357286,
+      "prediction": 0.13848780729025634,
+      "step": 13
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0005_c0c0a757d3df76f8_r000",
+      "measured_sensitivity": 0.1578183411892402,
+      "prediction": 0.35952427654239005,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0006_53a0912d136c2afb_r000",
+      "measured_sensitivity": 0.3584857038229915,
+      "prediction": 0.34803026527762415,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0006_53a0912d136c2afb_r000",
+      "measured_sensitivity": 0.07564458548708752,
+      "prediction": 0.12559649906316317,
+      "step": 4
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0006_53a0912d136c2afb_r000",
+      "measured_sensitivity": 0.0780429548891598,
+      "prediction": 0.14961224175858456,
+      "step": 7
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0006_53a0912d136c2afb_r000",
+      "measured_sensitivity": 0.13959052570214459,
+      "prediction": 0.13978278367796704,
+      "step": 10
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0006_53a0912d136c2afb_r000",
+      "measured_sensitivity": 0.13650519552225016,
+      "prediction": 0.1864557983043249,
+      "step": 13
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0007_ed638b7a7f4e3df7_r000",
+      "measured_sensitivity": 0.18947671395002263,
+      "prediction": 0.2876228714533511,
+      "step": 1
+    },
+    {
+      "case_key": "e1_formation/episodes/test/authorized/public/none/test_0007_ed638b7a7f4e3df7_r000",
+      "measured_sensitivity": 0.14722561004062806,
+      "prediction": 0.23116674806680826,
+      "step": 4
+    }
+  ],
+  "repeated_checkpoints_are_not_independent_samples": true
+}

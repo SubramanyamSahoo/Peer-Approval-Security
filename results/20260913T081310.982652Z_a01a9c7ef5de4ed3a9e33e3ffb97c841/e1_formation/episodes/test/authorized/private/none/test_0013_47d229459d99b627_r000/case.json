@@ -1,0 +1,16 @@
+{
+  "arm": "none",
+  "authorization": "authorized",
+  "bug_delta": 20,
+  "case_id": "test_0013_47d229459d99b627_r000",
+  "input": 17,
+  "original_expected": 19,
+  "pair_key": "test_0013_47d229459d99b627/replicate_0",
+  "replicate": 0,
+  "scenario_id": "test_0013_47d229459d99b627",
+  "split": "test",
+  "style": "audit",
+  "ticket": "47d229459d99b627",
+  "true_offset": 2,
+  "visibility": "private"
+}

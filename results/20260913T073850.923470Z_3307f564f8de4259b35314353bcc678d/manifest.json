@@ -1,0 +1,66 @@
+{
+  "config": {
+    "analysis": {
+      "bootstrap_mc_standard_error": 0.01,
+      "confidence_level": 0.95,
+      "permutation_mc_standard_error": 0.01,
+      "primary_warning_visibility": "public",
+      "target_episode_false_alarm_rate": 0.1,
+      "warning_horizon_agent_turns": 4
+    },
+    "budget": {
+      "billing_started_utc": "2026-09-13T06:45:07.580688+00:00",
+      "hourly_usd": 3.29,
+      "limit_usd": 100.0,
+      "reserve_usd": 20.0
+    },
+    "compute": {
+      "gpu_reserve_gib": 4.0,
+      "initial_batch_size": 64,
+      "max_context_tokens": 4096
+    },
+    "model": {
+      "attention_implementation": "sdpa",
+      "device": "cuda:0",
+      "drop_unused_vision_tower": true,
+      "dtype": "bfloat16",
+      "id": "Qwen/Qwen3.8-27B",
+      "require_fast_linear_kernels": true,
+      "revision": "main"
+    },
+    "output_root": "results",
+    "profiling": {
+      "measurement_repetitions": 3,
+      "nonforward_time_fraction": 0.25
+    },
+    "study": {
+      "calibration_scenarios": 4,
+      "fit_scenarios": 4,
+      "max_rounds": 6,
+      "operand_max": 20,
+      "operand_min": -20,
+      "replicates": 1,
+      "seed": 0,
+      "styles": {
+        "calibration": [
+          "memo"
+        ],
+        "fit": [
+          "ticket",
+          "brief"
+        ],
+        "test": [
+          "handoff",
+          "audit"
+        ]
+      },
+      "test_scenarios": 8
+    }
+  },
+  "config_hash": "06c9173dd66b391f225c2d49b6cdaeeb686a514555b61f31df35d5f7be85772d",
+  "created_utc": "2026-09-13T07:38:50.923759+00:00",
+  "result_kind": "empirical_run",
+  "run_id": "20260913T073850.923470Z_3307f564f8de4259b35314353bcc678d",
+  "schema_version": 2,
+  "source_hash": "95595434691eee543d62a4d78ad6b3434391e30d0215258f541b7e569c86cbe5"
+}

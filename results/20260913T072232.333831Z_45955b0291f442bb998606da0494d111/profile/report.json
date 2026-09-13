@@ -1,0 +1,74 @@
+{
+  "allocation_note": "Compare more scenarios with more replicates using development variability; no claim this is power-optimal.",
+  "effective_batch_ceiling": 64,
+  "longest_representative_tokens": 713,
+  "maximum_replicates_under_this_planning_estimate": 67,
+  "measurements": [
+    {
+      "population": "longest_edited_prefix",
+      "prompts": 64,
+      "repetition": 0,
+      "wall_seconds": 7.640965043000051,
+      "wall_seconds_per_prompt": 0.1193900787968758
+    },
+    {
+      "population": "mixed_prefixes",
+      "prompts": 64,
+      "repetition": 0,
+      "wall_seconds": 7.7442025929999545,
+      "wall_seconds_per_prompt": 0.12100316551562429
+    },
+    {
+      "population": "longest_edited_prefix",
+      "prompts": 64,
+      "repetition": 1,
+      "wall_seconds": 7.676565182000104,
+      "wall_seconds_per_prompt": 0.11994633096875162
+    },
+    {
+      "population": "mixed_prefixes",
+      "prompts": 64,
+      "repetition": 1,
+      "wall_seconds": 7.763291750999997,
+      "wall_seconds_per_prompt": 0.12130143360937495
+    },
+    {
+      "population": "longest_edited_prefix",
+      "prompts": 64,
+      "repetition": 2,
+      "wall_seconds": 7.654563912999947,
+      "wall_seconds_per_prompt": 0.11960256114062418
+    },
+    {
+      "population": "mixed_prefixes",
+      "prompts": 64,
+      "repetition": 2,
+      "wall_seconds": 7.8288982049998594,
+      "wall_seconds_per_prompt": 0.1223265344531228
+    }
+  ],
+  "not_a_runtime_or_budget_guarantee": true,
+  "one_replicate_workload_bound": {
+    "baseline_episodes": 64,
+    "e2_reuses_baseline_episodes": true,
+    "e3_maximum_episodes": 48,
+    "e4_maximum_episodes": 48,
+    "maximum_forward_prompts_by_kind": {
+      "edited_decisions": 96,
+      "history_diagnostics": 320,
+      "live_decisions": 2880,
+      "peer_diagnostics": 4032,
+      "private_donors": 32,
+      "text_monitor": 384
+    },
+    "maximum_total_episodes": 160,
+    "maximum_total_forward_prompts": 7744,
+    "replicates": 1,
+    "upper_counts_assume_every_eligible_opportunity_survives": true
+  },
+  "planning_nonforward_time_fraction": 0.25,
+  "planning_seconds_per_replicate": 1263.0622437399772,
+  "remaining_estimated_compute_usd": 77.78363372211666,
+  "replicates_are_not_changed_automatically": true,
+  "result_kind": "runtime_profile_not_empirical_findings"
+}

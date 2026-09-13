@@ -1,0 +1,246 @@
+{
+  "effects": [
+    {
+      "arm": "candidate",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.007897236576123557,
+        "ci_low": -0.0005434269841704325,
+        "confidence_level": 0.95,
+        "contrast": "left_minus_right",
+        "estimate": 0.003773875485931402,
+        "left_scenarios": 8,
+        "matched_scenario_ids": [
+          "test_0000_40e4f49e6f9f28f3",
+          "test_0001_d100695bc8ad58b5",
+          "test_0002_236537474a5da0ad",
+          "test_0003_9f220c44a0d92106",
+          "test_0004_3e25358942e07d55",
+          "test_0005_c0c0a757d3df76f8",
+          "test_0006_53a0912d136c2afb",
+          "test_0007_ed638b7a7f4e3df7"
+        ],
+        "matched_scenario_replicates": [
+          [
+            "test_0000_40e4f49e6f9f28f3",
+            0
+          ],
+          [
+            "test_0001_d100695bc8ad58b5",
+            0
+          ],
+          [
+            "test_0002_236537474a5da0ad",
+            0
+          ],
+          [
+            "test_0003_9f220c44a0d92106",
+            0
+          ],
+          [
+            "test_0004_3e25358942e07d55",
+            0
+          ],
+          [
+            "test_0005_c0c0a757d3df76f8",
+            0
+          ],
+          [
+            "test_0006_53a0912d136c2afb",
+            0
+          ],
+          [
+            "test_0007_ed638b7a7f4e3df7",
+            0
+          ]
+        ],
+        "n_scenarios": 8,
+        "right_scenarios": 8,
+        "status": "estimated",
+        "unmatched_left": [],
+        "unmatched_right": []
+      }
+    },
+    {
+      "arm": "random",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.004726219678718452,
+        "ci_low": -0.006009578849127711,
+        "confidence_level": 0.95,
+        "contrast": "left_minus_right",
+        "estimate": -0.0008595795910626008,
+        "left_scenarios": 8,
+        "matched_scenario_ids": [
+          "test_0000_40e4f49e6f9f28f3",
+          "test_0001_d100695bc8ad58b5",
+          "test_0002_236537474a5da0ad",
+          "test_0003_9f220c44a0d92106",
+          "test_0004_3e25358942e07d55",
+          "test_0005_c0c0a757d3df76f8",
+          "test_0006_53a0912d136c2afb",
+          "test_0007_ed638b7a7f4e3df7"
+        ],
+        "matched_scenario_replicates": [
+          [
+            "test_0000_40e4f49e6f9f28f3",
+            0
+          ],
+          [
+            "test_0001_d100695bc8ad58b5",
+            0
+          ],
+          [
+            "test_0002_236537474a5da0ad",
+            0
+          ],
+          [
+            "test_0003_9f220c44a0d92106",
+            0
+          ],
+          [
+            "test_0004_3e25358942e07d55",
+            0
+          ],
+          [
+            "test_0005_c0c0a757d3df76f8",
+            0
+          ],
+          [
+            "test_0006_53a0912d136c2afb",
+            0
+          ],
+          [
+            "test_0007_ed638b7a7f4e3df7",
+            0
+          ]
+        ],
+        "n_scenarios": 8,
+        "right_scenarios": 8,
+        "status": "estimated",
+        "unmatched_left": [],
+        "unmatched_right": []
+      }
+    },
+    {
+      "arm": "rule_reminder",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": -0.10775864801232389,
+        "ci_low": -0.24764959456542332,
+        "confidence_level": 0.95,
+        "contrast": "left_minus_right",
+        "estimate": -0.17174224987317094,
+        "left_scenarios": 8,
+        "matched_scenario_ids": [
+          "test_0000_40e4f49e6f9f28f3",
+          "test_0001_d100695bc8ad58b5",
+          "test_0002_236537474a5da0ad",
+          "test_0003_9f220c44a0d92106",
+          "test_0004_3e25358942e07d55",
+          "test_0005_c0c0a757d3df76f8",
+          "test_0006_53a0912d136c2afb",
+          "test_0007_ed638b7a7f4e3df7"
+        ],
+        "matched_scenario_replicates": [
+          [
+            "test_0000_40e4f49e6f9f28f3",
+            0
+          ],
+          [
+            "test_0001_d100695bc8ad58b5",
+            0
+          ],
+          [
+            "test_0002_236537474a5da0ad",
+            0
+          ],
+          [
+            "test_0003_9f220c44a0d92106",
+            0
+          ],
+          [
+            "test_0004_3e25358942e07d55",
+            0
+          ],
+          [
+            "test_0005_c0c0a757d3df76f8",
+            0
+          ],
+          [
+            "test_0006_53a0912d136c2afb",
+            0
+          ],
+          [
+            "test_0007_ed638b7a7f4e3df7",
+            0
+          ]
+        ],
+        "n_scenarios": 8,
+        "right_scenarios": 8,
+        "status": "estimated",
+        "unmatched_left": [],
+        "unmatched_right": []
+      }
+    },
+    {
+      "arm": "candidate",
+      "authorization": "prohibited",
+      "effect": {
+        "ci_high": null,
+        "ci_low": null,
+        "contrast": "left_minus_right",
+        "estimate": null,
+        "left_scenarios": 0,
+        "matched_scenario_ids": [],
+        "matched_scenario_replicates": [],
+        "n_scenarios": 0,
+        "right_scenarios": 0,
+        "status": "no_matched_scenarios",
+        "unmatched_left": [],
+        "unmatched_right": []
+      }
+    },
+    {
+      "arm": "random",
+      "authorization": "prohibited",
+      "effect": {
+        "ci_high": null,
+        "ci_low": null,
+        "contrast": "left_minus_right",
+        "estimate": null,
+        "left_scenarios": 0,
+        "matched_scenario_ids": [],
+        "matched_scenario_replicates": [],
+        "n_scenarios": 0,
+        "right_scenarios": 0,
+        "status": "no_matched_scenarios",
+        "unmatched_left": [],
+        "unmatched_right": []
+      }
+    },
+    {
+      "arm": "rule_reminder",
+      "authorization": "prohibited",
+      "effect": {
+        "ci_high": null,
+        "ci_low": null,
+        "contrast": "left_minus_right",
+        "estimate": null,
+        "left_scenarios": 0,
+        "matched_scenario_ids": [],
+        "matched_scenario_replicates": [],
+        "n_scenarios": 0,
+        "right_scenarios": 0,
+        "status": "no_matched_scenarios",
+        "unmatched_left": [],
+        "unmatched_right": []
+      }
+    }
+  ],
+  "later_checkpoint_diagnostics_are_descriptive_not_an_unbiased_causal_estimate": true,
+  "scope": "first reviewer decision, matched before intervention"
+}

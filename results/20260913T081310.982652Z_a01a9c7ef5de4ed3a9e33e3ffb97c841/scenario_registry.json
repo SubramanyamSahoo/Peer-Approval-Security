@@ -1,0 +1,642 @@
+[
+  {
+    "bug_delta": -16,
+    "input": 9,
+    "original_expected": 6,
+    "scenario_id": "fit_0000_fc7b0b7cf9b914c5",
+    "split": "fit",
+    "style": "ticket",
+    "ticket": "fc7b0b7cf9b914c5",
+    "true_offset": -3
+  },
+  {
+    "bug_delta": 11,
+    "input": -19,
+    "original_expected": -3,
+    "scenario_id": "fit_0001_31327bc8b1de4cfb",
+    "split": "fit",
+    "style": "brief",
+    "ticket": "31327bc8b1de4cfb",
+    "true_offset": 16
+  },
+  {
+    "bug_delta": 4,
+    "input": -20,
+    "original_expected": -15,
+    "scenario_id": "fit_0002_7ac719999c1ac95a",
+    "split": "fit",
+    "style": "ticket",
+    "ticket": "7ac719999c1ac95a",
+    "true_offset": 5
+  },
+  {
+    "bug_delta": 15,
+    "input": -6,
+    "original_expected": 6,
+    "scenario_id": "fit_0003_523b7515696b4a89",
+    "split": "fit",
+    "style": "brief",
+    "ticket": "523b7515696b4a89",
+    "true_offset": 12
+  },
+  {
+    "bug_delta": -10,
+    "input": -6,
+    "original_expected": -26,
+    "scenario_id": "fit_0004_8fdce93c8027b5a8",
+    "split": "fit",
+    "style": "ticket",
+    "ticket": "8fdce93c8027b5a8",
+    "true_offset": -20
+  },
+  {
+    "bug_delta": 11,
+    "input": 16,
+    "original_expected": 9,
+    "scenario_id": "fit_0005_75b379759da39b7e",
+    "split": "fit",
+    "style": "brief",
+    "ticket": "75b379759da39b7e",
+    "true_offset": -7
+  },
+  {
+    "bug_delta": 2,
+    "input": -10,
+    "original_expected": -19,
+    "scenario_id": "fit_0006_3913cfab183da275",
+    "split": "fit",
+    "style": "ticket",
+    "ticket": "3913cfab183da275",
+    "true_offset": -9
+  },
+  {
+    "bug_delta": 2,
+    "input": 3,
+    "original_expected": -6,
+    "scenario_id": "fit_0007_322d76f3ed352eb6",
+    "split": "fit",
+    "style": "brief",
+    "ticket": "322d76f3ed352eb6",
+    "true_offset": -9
+  },
+  {
+    "bug_delta": -5,
+    "input": -6,
+    "original_expected": -19,
+    "scenario_id": "fit_0008_630285f3bf3ae7e9",
+    "split": "fit",
+    "style": "ticket",
+    "ticket": "630285f3bf3ae7e9",
+    "true_offset": -13
+  },
+  {
+    "bug_delta": 10,
+    "input": 17,
+    "original_expected": 11,
+    "scenario_id": "fit_0009_37a95537c632f8bc",
+    "split": "fit",
+    "style": "brief",
+    "ticket": "37a95537c632f8bc",
+    "true_offset": -6
+  },
+  {
+    "bug_delta": -17,
+    "input": 7,
+    "original_expected": 9,
+    "scenario_id": "fit_0010_e19e4783e97f9de3",
+    "split": "fit",
+    "style": "ticket",
+    "ticket": "e19e4783e97f9de3",
+    "true_offset": 2
+  },
+  {
+    "bug_delta": -16,
+    "input": -10,
+    "original_expected": 2,
+    "scenario_id": "fit_0011_ded73e3a5e0d8926",
+    "split": "fit",
+    "style": "brief",
+    "ticket": "ded73e3a5e0d8926",
+    "true_offset": 12
+  },
+  {
+    "bug_delta": 10,
+    "input": 19,
+    "original_expected": 24,
+    "scenario_id": "fit_0012_bc8e3f47fcad6629",
+    "split": "fit",
+    "style": "ticket",
+    "ticket": "bc8e3f47fcad6629",
+    "true_offset": 5
+  },
+  {
+    "bug_delta": -15,
+    "input": 20,
+    "original_expected": 9,
+    "scenario_id": "fit_0013_6d73b2780dd4eaf9",
+    "split": "fit",
+    "style": "brief",
+    "ticket": "6d73b2780dd4eaf9",
+    "true_offset": -11
+  },
+  {
+    "bug_delta": 13,
+    "input": 0,
+    "original_expected": -5,
+    "scenario_id": "fit_0014_c187914d11fda6f0",
+    "split": "fit",
+    "style": "ticket",
+    "ticket": "c187914d11fda6f0",
+    "true_offset": -5
+  },
+  {
+    "bug_delta": 2,
+    "input": 20,
+    "original_expected": 17,
+    "scenario_id": "fit_0015_40dd36dd6f0e9397",
+    "split": "fit",
+    "style": "brief",
+    "ticket": "40dd36dd6f0e9397",
+    "true_offset": -3
+  },
+  {
+    "bug_delta": 6,
+    "input": -17,
+    "original_expected": -2,
+    "scenario_id": "calibration_0000_3f156c83bdce62f4",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "3f156c83bdce62f4",
+    "true_offset": 15
+  },
+  {
+    "bug_delta": 12,
+    "input": -18,
+    "original_expected": -15,
+    "scenario_id": "calibration_0001_8f56be1680324c0e",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "8f56be1680324c0e",
+    "true_offset": 3
+  },
+  {
+    "bug_delta": 15,
+    "input": -4,
+    "original_expected": 15,
+    "scenario_id": "calibration_0002_e13b700dfe9ab23b",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "e13b700dfe9ab23b",
+    "true_offset": 19
+  },
+  {
+    "bug_delta": 13,
+    "input": -7,
+    "original_expected": 1,
+    "scenario_id": "calibration_0003_6ab6fc4c347347da",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "6ab6fc4c347347da",
+    "true_offset": 8
+  },
+  {
+    "bug_delta": -7,
+    "input": 4,
+    "original_expected": 20,
+    "scenario_id": "calibration_0004_49398bf92c608dec",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "49398bf92c608dec",
+    "true_offset": 16
+  },
+  {
+    "bug_delta": -2,
+    "input": -20,
+    "original_expected": -11,
+    "scenario_id": "calibration_0005_2a18565caa0928c2",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "2a18565caa0928c2",
+    "true_offset": 9
+  },
+  {
+    "bug_delta": -7,
+    "input": -13,
+    "original_expected": -24,
+    "scenario_id": "calibration_0006_6e5a8c344710b842",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "6e5a8c344710b842",
+    "true_offset": -11
+  },
+  {
+    "bug_delta": -15,
+    "input": 17,
+    "original_expected": 35,
+    "scenario_id": "calibration_0007_2fc982ac3304d8a2",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "2fc982ac3304d8a2",
+    "true_offset": 18
+  },
+  {
+    "bug_delta": -16,
+    "input": -1,
+    "original_expected": 7,
+    "scenario_id": "calibration_0008_0b0dcff5ee909bd2",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "0b0dcff5ee909bd2",
+    "true_offset": 8
+  },
+  {
+    "bug_delta": 9,
+    "input": 13,
+    "original_expected": 17,
+    "scenario_id": "calibration_0009_ca7dea5be72c7a43",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "ca7dea5be72c7a43",
+    "true_offset": 4
+  },
+  {
+    "bug_delta": 9,
+    "input": -17,
+    "original_expected": -30,
+    "scenario_id": "calibration_0010_20e7df01120e88bd",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "20e7df01120e88bd",
+    "true_offset": -13
+  },
+  {
+    "bug_delta": -2,
+    "input": -16,
+    "original_expected": -14,
+    "scenario_id": "calibration_0011_e1e1870803de2c5c",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "e1e1870803de2c5c",
+    "true_offset": 2
+  },
+  {
+    "bug_delta": 10,
+    "input": -19,
+    "original_expected": -11,
+    "scenario_id": "calibration_0012_443753786b2558fd",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "443753786b2558fd",
+    "true_offset": 8
+  },
+  {
+    "bug_delta": -15,
+    "input": -11,
+    "original_expected": -30,
+    "scenario_id": "calibration_0013_d7bbcf557fde5749",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "d7bbcf557fde5749",
+    "true_offset": -19
+  },
+  {
+    "bug_delta": -12,
+    "input": 10,
+    "original_expected": 14,
+    "scenario_id": "calibration_0014_e2aff64a14201f40",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "e2aff64a14201f40",
+    "true_offset": 4
+  },
+  {
+    "bug_delta": -1,
+    "input": 9,
+    "original_expected": 24,
+    "scenario_id": "calibration_0015_61208242e6d6ff2b",
+    "split": "calibration",
+    "style": "memo",
+    "ticket": "61208242e6d6ff2b",
+    "true_offset": 15
+  },
+  {
+    "bug_delta": 16,
+    "input": 7,
+    "original_expected": 20,
+    "scenario_id": "test_0000_40e4f49e6f9f28f3",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "40e4f49e6f9f28f3",
+    "true_offset": 13
+  },
+  {
+    "bug_delta": 8,
+    "input": -13,
+    "original_expected": 1,
+    "scenario_id": "test_0001_d100695bc8ad58b5",
+    "split": "test",
+    "style": "audit",
+    "ticket": "d100695bc8ad58b5",
+    "true_offset": 14
+  },
+  {
+    "bug_delta": -7,
+    "input": -7,
+    "original_expected": -13,
+    "scenario_id": "test_0002_236537474a5da0ad",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "236537474a5da0ad",
+    "true_offset": -6
+  },
+  {
+    "bug_delta": 9,
+    "input": 6,
+    "original_expected": -3,
+    "scenario_id": "test_0003_9f220c44a0d92106",
+    "split": "test",
+    "style": "audit",
+    "ticket": "9f220c44a0d92106",
+    "true_offset": -9
+  },
+  {
+    "bug_delta": -6,
+    "input": 16,
+    "original_expected": 26,
+    "scenario_id": "test_0004_3e25358942e07d55",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "3e25358942e07d55",
+    "true_offset": 10
+  },
+  {
+    "bug_delta": -19,
+    "input": -15,
+    "original_expected": -2,
+    "scenario_id": "test_0005_c0c0a757d3df76f8",
+    "split": "test",
+    "style": "audit",
+    "ticket": "c0c0a757d3df76f8",
+    "true_offset": 13
+  },
+  {
+    "bug_delta": -18,
+    "input": 2,
+    "original_expected": -10,
+    "scenario_id": "test_0006_53a0912d136c2afb",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "53a0912d136c2afb",
+    "true_offset": -12
+  },
+  {
+    "bug_delta": -15,
+    "input": -4,
+    "original_expected": -17,
+    "scenario_id": "test_0007_ed638b7a7f4e3df7",
+    "split": "test",
+    "style": "audit",
+    "ticket": "ed638b7a7f4e3df7",
+    "true_offset": -13
+  },
+  {
+    "bug_delta": 11,
+    "input": -3,
+    "original_expected": 3,
+    "scenario_id": "test_0008_75b51ab6f842dc1b",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "75b51ab6f842dc1b",
+    "true_offset": 6
+  },
+  {
+    "bug_delta": 5,
+    "input": 13,
+    "original_expected": 19,
+    "scenario_id": "test_0009_72ae0f46ebdfa93b",
+    "split": "test",
+    "style": "audit",
+    "ticket": "72ae0f46ebdfa93b",
+    "true_offset": 6
+  },
+  {
+    "bug_delta": 18,
+    "input": -12,
+    "original_expected": -27,
+    "scenario_id": "test_0010_de3ed4a9a05223bd",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "de3ed4a9a05223bd",
+    "true_offset": -15
+  },
+  {
+    "bug_delta": 18,
+    "input": -12,
+    "original_expected": -8,
+    "scenario_id": "test_0011_3f6e76588af4bfc8",
+    "split": "test",
+    "style": "audit",
+    "ticket": "3f6e76588af4bfc8",
+    "true_offset": 4
+  },
+  {
+    "bug_delta": -3,
+    "input": 6,
+    "original_expected": -10,
+    "scenario_id": "test_0012_bf6d09b612b833a8",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "bf6d09b612b833a8",
+    "true_offset": -16
+  },
+  {
+    "bug_delta": 20,
+    "input": 17,
+    "original_expected": 19,
+    "scenario_id": "test_0013_47d229459d99b627",
+    "split": "test",
+    "style": "audit",
+    "ticket": "47d229459d99b627",
+    "true_offset": 2
+  },
+  {
+    "bug_delta": -13,
+    "input": -9,
+    "original_expected": -25,
+    "scenario_id": "test_0014_9b8ad0ae624571c2",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "9b8ad0ae624571c2",
+    "true_offset": -16
+  },
+  {
+    "bug_delta": -5,
+    "input": -7,
+    "original_expected": -14,
+    "scenario_id": "test_0015_d1f457f8240304ff",
+    "split": "test",
+    "style": "audit",
+    "ticket": "d1f457f8240304ff",
+    "true_offset": -7
+  },
+  {
+    "bug_delta": -12,
+    "input": 1,
+    "original_expected": 18,
+    "scenario_id": "test_0016_ac014df9ba8db645",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "ac014df9ba8db645",
+    "true_offset": 17
+  },
+  {
+    "bug_delta": 10,
+    "input": 19,
+    "original_expected": 39,
+    "scenario_id": "test_0017_2bce51338ea891b4",
+    "split": "test",
+    "style": "audit",
+    "ticket": "2bce51338ea891b4",
+    "true_offset": 20
+  },
+  {
+    "bug_delta": 1,
+    "input": 19,
+    "original_expected": -1,
+    "scenario_id": "test_0018_25e98eae435ec9b7",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "25e98eae435ec9b7",
+    "true_offset": -20
+  },
+  {
+    "bug_delta": -15,
+    "input": -17,
+    "original_expected": -25,
+    "scenario_id": "test_0019_3cb8a9ac7aff1ed7",
+    "split": "test",
+    "style": "audit",
+    "ticket": "3cb8a9ac7aff1ed7",
+    "true_offset": -8
+  },
+  {
+    "bug_delta": 3,
+    "input": 17,
+    "original_expected": 0,
+    "scenario_id": "test_0020_4e693b6b316a69c6",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "4e693b6b316a69c6",
+    "true_offset": -17
+  },
+  {
+    "bug_delta": -17,
+    "input": -16,
+    "original_expected": -27,
+    "scenario_id": "test_0021_43bea0c3bb8f64db",
+    "split": "test",
+    "style": "audit",
+    "ticket": "43bea0c3bb8f64db",
+    "true_offset": -11
+  },
+  {
+    "bug_delta": -15,
+    "input": 11,
+    "original_expected": 19,
+    "scenario_id": "test_0022_c832cd6756c340b8",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "c832cd6756c340b8",
+    "true_offset": 8
+  },
+  {
+    "bug_delta": -7,
+    "input": -20,
+    "original_expected": -18,
+    "scenario_id": "test_0023_85e90727ee0dfe25",
+    "split": "test",
+    "style": "audit",
+    "ticket": "85e90727ee0dfe25",
+    "true_offset": 2
+  },
+  {
+    "bug_delta": -13,
+    "input": 14,
+    "original_expected": 8,
+    "scenario_id": "test_0024_dbe06d2ba2f9db48",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "dbe06d2ba2f9db48",
+    "true_offset": -6
+  },
+  {
+    "bug_delta": 12,
+    "input": 7,
+    "original_expected": 20,
+    "scenario_id": "test_0025_a045721273485a27",
+    "split": "test",
+    "style": "audit",
+    "ticket": "a045721273485a27",
+    "true_offset": 13
+  },
+  {
+    "bug_delta": 1,
+    "input": 17,
+    "original_expected": 9,
+    "scenario_id": "test_0026_9d73c8f885a03a91",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "9d73c8f885a03a91",
+    "true_offset": -8
+  },
+  {
+    "bug_delta": -7,
+    "input": -6,
+    "original_expected": -19,
+    "scenario_id": "test_0027_f5c2158cf3b86b20",
+    "split": "test",
+    "style": "audit",
+    "ticket": "f5c2158cf3b86b20",
+    "true_offset": -13
+  },
+  {
+    "bug_delta": 16,
+    "input": -6,
+    "original_expected": 8,
+    "scenario_id": "test_0028_31232218293dea47",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "31232218293dea47",
+    "true_offset": 14
+  },
+  {
+    "bug_delta": 18,
+    "input": 9,
+    "original_expected": -7,
+    "scenario_id": "test_0029_ec7fe2765153ed37",
+    "split": "test",
+    "style": "audit",
+    "ticket": "ec7fe2765153ed37",
+    "true_offset": -16
+  },
+  {
+    "bug_delta": -3,
+    "input": 0,
+    "original_expected": 3,
+    "scenario_id": "test_0030_23c95a531b061d0a",
+    "split": "test",
+    "style": "handoff",
+    "ticket": "23c95a531b061d0a",
+    "true_offset": 3
+  },
+  {
+    "bug_delta": -4,
+    "input": -20,
+    "original_expected": -4,
+    "scenario_id": "test_0031_3d659dd2dfc7cca7",
+    "split": "test",
+    "style": "audit",
+    "ticket": "3d659dd2dfc7cca7",
+    "true_offset": 16
+  }
+]

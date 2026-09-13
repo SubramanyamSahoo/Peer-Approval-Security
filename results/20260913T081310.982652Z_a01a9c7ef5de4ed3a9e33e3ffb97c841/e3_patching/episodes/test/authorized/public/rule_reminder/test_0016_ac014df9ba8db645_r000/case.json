@@ -1,0 +1,16 @@
+{
+  "arm": "rule_reminder",
+  "authorization": "authorized",
+  "bug_delta": -12,
+  "case_id": "test_0016_ac014df9ba8db645_r000",
+  "input": 1,
+  "original_expected": 18,
+  "pair_key": "test_0016_ac014df9ba8db645/replicate_0",
+  "replicate": 0,
+  "scenario_id": "test_0016_ac014df9ba8db645",
+  "split": "test",
+  "style": "handoff",
+  "ticket": "ac014df9ba8db645",
+  "true_offset": 17,
+  "visibility": "public"
+}

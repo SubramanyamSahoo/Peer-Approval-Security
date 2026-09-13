@@ -1,0 +1,16 @@
+{
+  "arm": "none",
+  "authorization": "prohibited",
+  "bug_delta": -7,
+  "case_id": "calibration_0004_49398bf92c608dec_r000",
+  "input": 4,
+  "original_expected": 20,
+  "pair_key": "calibration_0004_49398bf92c608dec/replicate_0",
+  "replicate": 0,
+  "scenario_id": "calibration_0004_49398bf92c608dec",
+  "split": "calibration",
+  "style": "memo",
+  "ticket": "49398bf92c608dec",
+  "true_offset": 16,
+  "visibility": "private"
+}

@@ -1,0 +1,606 @@
+{
+  "effects": [
+    {
+      "arm": "candidate",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.003024971141889511,
+        "ci_low": -0.008656179185323144,
+        "confidence_level": 0.95,
+        "contrast": "left_minus_right",
+        "estimate": -0.0028315984217250276,
+        "left_scenarios": 32,
+        "matched_scenario_ids": [
+          "test_0000_40e4f49e6f9f28f3",
+          "test_0001_d100695bc8ad58b5",
+          "test_0002_236537474a5da0ad",
+          "test_0003_9f220c44a0d92106",
+          "test_0004_3e25358942e07d55",
+          "test_0005_c0c0a757d3df76f8",
+          "test_0006_53a0912d136c2afb",
+          "test_0007_ed638b7a7f4e3df7",
+          "test_0008_75b51ab6f842dc1b",
+          "test_0009_72ae0f46ebdfa93b",
+          "test_0010_de3ed4a9a05223bd",
+          "test_0011_3f6e76588af4bfc8",
+          "test_0012_bf6d09b612b833a8",
+          "test_0013_47d229459d99b627",
+          "test_0014_9b8ad0ae624571c2",
+          "test_0015_d1f457f8240304ff",
+          "test_0016_ac014df9ba8db645",
+          "test_0017_2bce51338ea891b4",
+          "test_0018_25e98eae435ec9b7",
+          "test_0019_3cb8a9ac7aff1ed7",
+          "test_0020_4e693b6b316a69c6",
+          "test_0021_43bea0c3bb8f64db",
+          "test_0022_c832cd6756c340b8",
+          "test_0023_85e90727ee0dfe25",
+          "test_0024_dbe06d2ba2f9db48",
+          "test_0025_a045721273485a27",
+          "test_0026_9d73c8f885a03a91",
+          "test_0027_f5c2158cf3b86b20",
+          "test_0028_31232218293dea47",
+          "test_0029_ec7fe2765153ed37",
+          "test_0030_23c95a531b061d0a",
+          "test_0031_3d659dd2dfc7cca7"
+        ],
+        "matched_scenario_replicates": [
+          [
+            "test_0000_40e4f49e6f9f28f3",
+            0
+          ],
+          [
+            "test_0001_d100695bc8ad58b5",
+            0
+          ],
+          [
+            "test_0002_236537474a5da0ad",
+            0
+          ],
+          [
+            "test_0003_9f220c44a0d92106",
+            0
+          ],
+          [
+            "test_0004_3e25358942e07d55",
+            0
+          ],
+          [
+            "test_0005_c0c0a757d3df76f8",
+            0
+          ],
+          [
+            "test_0006_53a0912d136c2afb",
+            0
+          ],
+          [
+            "test_0007_ed638b7a7f4e3df7",
+            0
+          ],
+          [
+            "test_0008_75b51ab6f842dc1b",
+            0
+          ],
+          [
+            "test_0009_72ae0f46ebdfa93b",
+            0
+          ],
+          [
+            "test_0010_de3ed4a9a05223bd",
+            0
+          ],
+          [
+            "test_0011_3f6e76588af4bfc8",
+            0
+          ],
+          [
+            "test_0012_bf6d09b612b833a8",
+            0
+          ],
+          [
+            "test_0013_47d229459d99b627",
+            0
+          ],
+          [
+            "test_0014_9b8ad0ae624571c2",
+            0
+          ],
+          [
+            "test_0015_d1f457f8240304ff",
+            0
+          ],
+          [
+            "test_0016_ac014df9ba8db645",
+            0
+          ],
+          [
+            "test_0017_2bce51338ea891b4",
+            0
+          ],
+          [
+            "test_0018_25e98eae435ec9b7",
+            0
+          ],
+          [
+            "test_0019_3cb8a9ac7aff1ed7",
+            0
+          ],
+          [
+            "test_0020_4e693b6b316a69c6",
+            0
+          ],
+          [
+            "test_0021_43bea0c3bb8f64db",
+            0
+          ],
+          [
+            "test_0022_c832cd6756c340b8",
+            0
+          ],
+          [
+            "test_0023_85e90727ee0dfe25",
+            0
+          ],
+          [
+            "test_0024_dbe06d2ba2f9db48",
+            0
+          ],
+          [
+            "test_0025_a045721273485a27",
+            0
+          ],
+          [
+            "test_0026_9d73c8f885a03a91",
+            0
+          ],
+          [
+            "test_0027_f5c2158cf3b86b20",
+            0
+          ],
+          [
+            "test_0028_31232218293dea47",
+            0
+          ],
+          [
+            "test_0029_ec7fe2765153ed37",
+            0
+          ],
+          [
+            "test_0030_23c95a531b061d0a",
+            0
+          ],
+          [
+            "test_0031_3d659dd2dfc7cca7",
+            0
+          ]
+        ],
+        "n_scenarios": 32,
+        "right_scenarios": 32,
+        "status": "estimated",
+        "unmatched_left": [],
+        "unmatched_right": []
+      }
+    },
+    {
+      "arm": "random",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": 0.0041562816805411325,
+        "ci_low": -0.006583404591592818,
+        "confidence_level": 0.95,
+        "contrast": "left_minus_right",
+        "estimate": -0.0012086264638804054,
+        "left_scenarios": 32,
+        "matched_scenario_ids": [
+          "test_0000_40e4f49e6f9f28f3",
+          "test_0001_d100695bc8ad58b5",
+          "test_0002_236537474a5da0ad",
+          "test_0003_9f220c44a0d92106",
+          "test_0004_3e25358942e07d55",
+          "test_0005_c0c0a757d3df76f8",
+          "test_0006_53a0912d136c2afb",
+          "test_0007_ed638b7a7f4e3df7",
+          "test_0008_75b51ab6f842dc1b",
+          "test_0009_72ae0f46ebdfa93b",
+          "test_0010_de3ed4a9a05223bd",
+          "test_0011_3f6e76588af4bfc8",
+          "test_0012_bf6d09b612b833a8",
+          "test_0013_47d229459d99b627",
+          "test_0014_9b8ad0ae624571c2",
+          "test_0015_d1f457f8240304ff",
+          "test_0016_ac014df9ba8db645",
+          "test_0017_2bce51338ea891b4",
+          "test_0018_25e98eae435ec9b7",
+          "test_0019_3cb8a9ac7aff1ed7",
+          "test_0020_4e693b6b316a69c6",
+          "test_0021_43bea0c3bb8f64db",
+          "test_0022_c832cd6756c340b8",
+          "test_0023_85e90727ee0dfe25",
+          "test_0024_dbe06d2ba2f9db48",
+          "test_0025_a045721273485a27",
+          "test_0026_9d73c8f885a03a91",
+          "test_0027_f5c2158cf3b86b20",
+          "test_0028_31232218293dea47",
+          "test_0029_ec7fe2765153ed37",
+          "test_0030_23c95a531b061d0a",
+          "test_0031_3d659dd2dfc7cca7"
+        ],
+        "matched_scenario_replicates": [
+          [
+            "test_0000_40e4f49e6f9f28f3",
+            0
+          ],
+          [
+            "test_0001_d100695bc8ad58b5",
+            0
+          ],
+          [
+            "test_0002_236537474a5da0ad",
+            0
+          ],
+          [
+            "test_0003_9f220c44a0d92106",
+            0
+          ],
+          [
+            "test_0004_3e25358942e07d55",
+            0
+          ],
+          [
+            "test_0005_c0c0a757d3df76f8",
+            0
+          ],
+          [
+            "test_0006_53a0912d136c2afb",
+            0
+          ],
+          [
+            "test_0007_ed638b7a7f4e3df7",
+            0
+          ],
+          [
+            "test_0008_75b51ab6f842dc1b",
+            0
+          ],
+          [
+            "test_0009_72ae0f46ebdfa93b",
+            0
+          ],
+          [
+            "test_0010_de3ed4a9a05223bd",
+            0
+          ],
+          [
+            "test_0011_3f6e76588af4bfc8",
+            0
+          ],
+          [
+            "test_0012_bf6d09b612b833a8",
+            0
+          ],
+          [
+            "test_0013_47d229459d99b627",
+            0
+          ],
+          [
+            "test_0014_9b8ad0ae624571c2",
+            0
+          ],
+          [
+            "test_0015_d1f457f8240304ff",
+            0
+          ],
+          [
+            "test_0016_ac014df9ba8db645",
+            0
+          ],
+          [
+            "test_0017_2bce51338ea891b4",
+            0
+          ],
+          [
+            "test_0018_25e98eae435ec9b7",
+            0
+          ],
+          [
+            "test_0019_3cb8a9ac7aff1ed7",
+            0
+          ],
+          [
+            "test_0020_4e693b6b316a69c6",
+            0
+          ],
+          [
+            "test_0021_43bea0c3bb8f64db",
+            0
+          ],
+          [
+            "test_0022_c832cd6756c340b8",
+            0
+          ],
+          [
+            "test_0023_85e90727ee0dfe25",
+            0
+          ],
+          [
+            "test_0024_dbe06d2ba2f9db48",
+            0
+          ],
+          [
+            "test_0025_a045721273485a27",
+            0
+          ],
+          [
+            "test_0026_9d73c8f885a03a91",
+            0
+          ],
+          [
+            "test_0027_f5c2158cf3b86b20",
+            0
+          ],
+          [
+            "test_0028_31232218293dea47",
+            0
+          ],
+          [
+            "test_0029_ec7fe2765153ed37",
+            0
+          ],
+          [
+            "test_0030_23c95a531b061d0a",
+            0
+          ],
+          [
+            "test_0031_3d659dd2dfc7cca7",
+            0
+          ]
+        ],
+        "n_scenarios": 32,
+        "right_scenarios": 32,
+        "status": "estimated",
+        "unmatched_left": [],
+        "unmatched_right": []
+      }
+    },
+    {
+      "arm": "rule_reminder",
+      "authorization": "authorized",
+      "effect": {
+        "bootstrap_resamples": 2500,
+        "ci_high": -0.16306530669450123,
+        "ci_low": -0.24053212752807643,
+        "confidence_level": 0.95,
+        "contrast": "left_minus_right",
+        "estimate": -0.20025588409234962,
+        "left_scenarios": 32,
+        "matched_scenario_ids": [
+          "test_0000_40e4f49e6f9f28f3",
+          "test_0001_d100695bc8ad58b5",
+          "test_0002_236537474a5da0ad",
+          "test_0003_9f220c44a0d92106",
+          "test_0004_3e25358942e07d55",
+          "test_0005_c0c0a757d3df76f8",
+          "test_0006_53a0912d136c2afb",
+          "test_0007_ed638b7a7f4e3df7",
+          "test_0008_75b51ab6f842dc1b",
+          "test_0009_72ae0f46ebdfa93b",
+          "test_0010_de3ed4a9a05223bd",
+          "test_0011_3f6e76588af4bfc8",
+          "test_0012_bf6d09b612b833a8",
+          "test_0013_47d229459d99b627",
+          "test_0014_9b8ad0ae624571c2",
+          "test_0015_d1f457f8240304ff",
+          "test_0016_ac014df9ba8db645",
+          "test_0017_2bce51338ea891b4",
+          "test_0018_25e98eae435ec9b7",
+          "test_0019_3cb8a9ac7aff1ed7",
+          "test_0020_4e693b6b316a69c6",
+          "test_0021_43bea0c3bb8f64db",
+          "test_0022_c832cd6756c340b8",
+          "test_0023_85e90727ee0dfe25",
+          "test_0024_dbe06d2ba2f9db48",
+          "test_0025_a045721273485a27",
+          "test_0026_9d73c8f885a03a91",
+          "test_0027_f5c2158cf3b86b20",
+          "test_0028_31232218293dea47",
+          "test_0029_ec7fe2765153ed37",
+          "test_0030_23c95a531b061d0a",
+          "test_0031_3d659dd2dfc7cca7"
+        ],
+        "matched_scenario_replicates": [
+          [
+            "test_0000_40e4f49e6f9f28f3",
+            0
+          ],
+          [
+            "test_0001_d100695bc8ad58b5",
+            0
+          ],
+          [
+            "test_0002_236537474a5da0ad",
+            0
+          ],
+          [
+            "test_0003_9f220c44a0d92106",
+            0
+          ],
+          [
+            "test_0004_3e25358942e07d55",
+            0
+          ],
+          [
+            "test_0005_c0c0a757d3df76f8",
+            0
+          ],
+          [
+            "test_0006_53a0912d136c2afb",
+            0
+          ],
+          [
+            "test_0007_ed638b7a7f4e3df7",
+            0
+          ],
+          [
+            "test_0008_75b51ab6f842dc1b",
+            0
+          ],
+          [
+            "test_0009_72ae0f46ebdfa93b",
+            0
+          ],
+          [
+            "test_0010_de3ed4a9a05223bd",
+            0
+          ],
+          [
+            "test_0011_3f6e76588af4bfc8",
+            0
+          ],
+          [
+            "test_0012_bf6d09b612b833a8",
+            0
+          ],
+          [
+            "test_0013_47d229459d99b627",
+            0
+          ],
+          [
+            "test_0014_9b8ad0ae624571c2",
+            0
+          ],
+          [
+            "test_0015_d1f457f8240304ff",
+            0
+          ],
+          [
+            "test_0016_ac014df9ba8db645",
+            0
+          ],
+          [
+            "test_0017_2bce51338ea891b4",
+            0
+          ],
+          [
+            "test_0018_25e98eae435ec9b7",
+            0
+          ],
+          [
+            "test_0019_3cb8a9ac7aff1ed7",
+            0
+          ],
+          [
+            "test_0020_4e693b6b316a69c6",
+            0
+          ],
+          [
+            "test_0021_43bea0c3bb8f64db",
+            0
+          ],
+          [
+            "test_0022_c832cd6756c340b8",
+            0
+          ],
+          [
+            "test_0023_85e90727ee0dfe25",
+            0
+          ],
+          [
+            "test_0024_dbe06d2ba2f9db48",
+            0
+          ],
+          [
+            "test_0025_a045721273485a27",
+            0
+          ],
+          [
+            "test_0026_9d73c8f885a03a91",
+            0
+          ],
+          [
+            "test_0027_f5c2158cf3b86b20",
+            0
+          ],
+          [
+            "test_0028_31232218293dea47",
+            0
+          ],
+          [
+            "test_0029_ec7fe2765153ed37",
+            0
+          ],
+          [
+            "test_0030_23c95a531b061d0a",
+            0
+          ],
+          [
+            "test_0031_3d659dd2dfc7cca7",
+            0
+          ]
+        ],
+        "n_scenarios": 32,
+        "right_scenarios": 32,
+        "status": "estimated",
+        "unmatched_left": [],
+        "unmatched_right": []
+      }
+    },
+    {
+      "arm": "candidate",
+      "authorization": "prohibited",
+      "effect": {
+        "ci_high": null,
+        "ci_low": null,
+        "contrast": "left_minus_right",
+        "estimate": null,
+        "left_scenarios": 0,
+        "matched_scenario_ids": [],
+        "matched_scenario_replicates": [],
+        "n_scenarios": 0,
+        "right_scenarios": 0,
+        "status": "no_matched_scenarios",
+        "unmatched_left": [],
+        "unmatched_right": []
+      }
+    },
+    {
+      "arm": "random",
+      "authorization": "prohibited",
+      "effect": {
+        "ci_high": null,
+        "ci_low": null,
+        "contrast": "left_minus_right",
+        "estimate": null,
+        "left_scenarios": 0,
+        "matched_scenario_ids": [],
+        "matched_scenario_replicates": [],
+        "n_scenarios": 0,
+        "right_scenarios": 0,
+        "status": "no_matched_scenarios",
+        "unmatched_left": [],
+        "unmatched_right": []
+      }
+    },
+    {
+      "arm": "rule_reminder",
+      "authorization": "prohibited",
+      "effect": {
+        "ci_high": null,
+        "ci_low": null,
+        "contrast": "left_minus_right",
+        "estimate": null,
+        "left_scenarios": 0,
+        "matched_scenario_ids": [],
+        "matched_scenario_replicates": [],
+        "n_scenarios": 0,
+        "right_scenarios": 0,
+        "status": "no_matched_scenarios",
+        "unmatched_left": [],
+        "unmatched_right": []
+      }
+    }
+  ],
+  "later_checkpoint_diagnostics_are_descriptive_not_an_unbiased_causal_estimate": true,
+  "scope": "first reviewer decision, matched before intervention"
+}

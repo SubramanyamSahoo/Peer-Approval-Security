@@ -1,0 +1,16 @@
+{
+  "arm": "none",
+  "authorization": "authorized",
+  "bug_delta": -16,
+  "case_id": "fit_0000_fc7b0b7cf9b914c5_r000",
+  "input": 9,
+  "original_expected": 6,
+  "pair_key": "fit_0000_fc7b0b7cf9b914c5/replicate_0",
+  "replicate": 0,
+  "scenario_id": "fit_0000_fc7b0b7cf9b914c5",
+  "split": "fit",
+  "style": "ticket",
+  "ticket": "fc7b0b7cf9b914c5",
+  "true_offset": -3,
+  "visibility": "private"
+}

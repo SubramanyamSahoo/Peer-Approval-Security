@@ -1,0 +1,10 @@
+{
+  "constructed_histories_not_spontaneous_collective_agreement": true,
+  "current_peer_positions_matched_within_each_contrast": true,
+  "first_reviewer_decision": true,
+  "history_effect_after_withdrawal": 0.0777312697896102,
+  "history_effect_under_support": 0.005188835584376994,
+  "not_a_demonstrated_dynamical_hysteresis_loop": true,
+  "tool_feasibility_changed": false,
+  "withdrawal_minus_support_history_interaction": 0.07254243420523321
+}

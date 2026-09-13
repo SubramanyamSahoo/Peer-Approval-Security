@@ -1,0 +1,20 @@
+{
+  "accounting": {
+    "elapsed_billing_seconds": 6332.815149,
+    "estimated_instance_usd": 5.787489400058333,
+    "instance_termination_performed": false,
+    "limit_usd": 100.0,
+    "reserve_usd": 20.0
+  },
+  "interpretation": "Read stage statuses: unidentified mechanisms are not positive findings.",
+  "status": "completed",
+  "telemetry": {
+    "final_batch_ceiling": 64,
+    "forward_seconds": 978.0931345650033,
+    "initial_batch_size": 64,
+    "oom_reductions": [],
+    "scored_prompt_tokens": 5073480,
+    "successful_forward_batches": 190
+  },
+  "updated_utc": "2026-09-13T08:30:40.395852+00:00"
+}
