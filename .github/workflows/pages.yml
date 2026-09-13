@@ -1,0 +1,44 @@
+name: Deploy research website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code and recorded results
+        uses: actions/checkout@v6
+      - name: Validate result importer
+        run: python3 -m unittest discover -s tests -p 'test_export_site_results.py' -v
+      - name: Import recorded probe results
+        run: python3 tools/export_site_results.py --results-root results --output docs/data/probes.json
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload website only
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
